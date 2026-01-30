@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Track your learning progress across JavaScript, Node.js, Express, SQL, DSA, and System Architecture" />
-    <meta name="theme-color" content="#6366f1" />
+    <meta name="theme-color" content="#14b8a6" />
 
     <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <title>AbComebackHogaya - Learning Tracker</title>
-    <script type="module" crossorigin src="/AbComebackHogaya/assets/index-Dr3RvsF0.js"></script>
+
+    <!-- GitHub Pages SPA redirect handling -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/AbComebackHogaya/assets/index-TM8LBHni.js"></script>
     <link rel="modulepreload" crossorigin href="/AbComebackHogaya/assets/vendor-BJ688qff.js">
     <link rel="modulepreload" crossorigin href="/AbComebackHogaya/assets/ui-B3hU4q5m.js">
     <link rel="modulepreload" crossorigin href="/AbComebackHogaya/assets/charts-DRa8oiU5.js">
-    <link rel="stylesheet" crossorigin href="/AbComebackHogaya/assets/index-B4ReHPGI.css">
+    <link rel="stylesheet" crossorigin href="/AbComebackHogaya/assets/index-DyE5txm6.css">
   </head>
   <body>
     <div id="root"></div>
