@@ -2,7 +2,7 @@
   {
     "id": "exp-1",
     "title": "What is Express.js",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 1
@@ -10,7 +10,7 @@
   {
     "id": "exp-2",
     "title": "Setting up Express App",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 2
@@ -18,7 +18,7 @@
   {
     "id": "exp-3",
     "title": "Basic Routing",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Routing",
     "difficulty": "beginner",
     "order_index": 3
@@ -26,7 +26,7 @@
   {
     "id": "exp-4",
     "title": "Route Parameters",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Routing",
     "difficulty": "beginner",
     "order_index": 4
@@ -34,7 +34,7 @@
   {
     "id": "exp-5",
     "title": "Query Parameters",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Routing",
     "difficulty": "beginner",
     "order_index": 5
@@ -42,7 +42,7 @@
   {
     "id": "exp-6",
     "title": "Express Router",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Routing",
     "difficulty": "intermediate",
     "order_index": 6
@@ -50,7 +50,7 @@
   {
     "id": "exp-7",
     "title": "Middleware Concept",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Middleware",
     "difficulty": "intermediate",
     "order_index": 7
@@ -58,7 +58,7 @@
   {
     "id": "exp-8",
     "title": "Built-in Middleware (express.json, express.static)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Middleware",
     "difficulty": "beginner",
     "order_index": 8
@@ -66,7 +66,7 @@
   {
     "id": "exp-9",
     "title": "Custom Middleware",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Middleware",
     "difficulty": "intermediate",
     "order_index": 9
@@ -74,7 +74,7 @@
   {
     "id": "exp-10",
     "title": "Third-party Middleware (body-parser, cors)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Middleware",
     "difficulty": "intermediate",
     "order_index": 10
@@ -82,7 +82,7 @@
   {
     "id": "exp-11",
     "title": "Error Handling Middleware",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Error Handling",
     "difficulty": "intermediate",
     "order_index": 11
@@ -90,7 +90,7 @@
   {
     "id": "exp-12",
     "title": "Request Object (req)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Request & Response",
     "difficulty": "beginner",
     "order_index": 12
@@ -98,7 +98,7 @@
   {
     "id": "exp-13",
     "title": "Response Object (res)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Request & Response",
     "difficulty": "beginner",
     "order_index": 13
@@ -106,7 +106,7 @@
   {
     "id": "exp-14",
     "title": "Response Methods (send, json, status)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Request & Response",
     "difficulty": "beginner",
     "order_index": 14
@@ -114,7 +114,7 @@
   {
     "id": "exp-15",
     "title": "Template Engines (EJS, Pug)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Views",
     "difficulty": "intermediate",
     "order_index": 15
@@ -122,7 +122,7 @@
   {
     "id": "exp-16",
     "title": "Serving Static Files",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Static Assets",
     "difficulty": "beginner",
     "order_index": 16
@@ -130,7 +130,7 @@
   {
     "id": "exp-17",
     "title": "Session Management",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Authentication",
     "difficulty": "intermediate",
     "order_index": 17
@@ -138,7 +138,7 @@
   {
     "id": "exp-18",
     "title": "Cookies (cookie-parser)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Authentication",
     "difficulty": "intermediate",
     "order_index": 18
@@ -146,7 +146,7 @@
   {
     "id": "exp-19",
     "title": "JWT Authentication",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Authentication",
     "difficulty": "advanced",
     "order_index": 19
@@ -154,7 +154,7 @@
   {
     "id": "exp-20",
     "title": "Passport.js",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Authentication",
     "difficulty": "advanced",
     "order_index": 20
@@ -162,7 +162,7 @@
   {
     "id": "exp-21",
     "title": "RESTful API Design",
-    "category": "Express",
+    "category": "express",
     "subcategory": "APIs",
     "difficulty": "intermediate",
     "order_index": 21
@@ -170,7 +170,7 @@
   {
     "id": "exp-22",
     "title": "CRUD Operations",
-    "category": "Express",
+    "category": "express",
     "subcategory": "APIs",
     "difficulty": "intermediate",
     "order_index": 22
@@ -178,7 +178,7 @@
   {
     "id": "exp-23",
     "title": "Input Validation (express-validator)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Validation",
     "difficulty": "intermediate",
     "order_index": 23
@@ -186,7 +186,7 @@
   {
     "id": "exp-24",
     "title": "File Upload (multer)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "File Handling",
     "difficulty": "intermediate",
     "order_index": 24
@@ -194,7 +194,7 @@
   {
     "id": "exp-25",
     "title": "CORS Configuration",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Security",
     "difficulty": "intermediate",
     "order_index": 25
@@ -202,7 +202,7 @@
   {
     "id": "exp-26",
     "title": "Rate Limiting",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Security",
     "difficulty": "intermediate",
     "order_index": 26
@@ -210,7 +210,7 @@
   {
     "id": "exp-27",
     "title": "Helmet.js for Security Headers",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Security",
     "difficulty": "intermediate",
     "order_index": 27
@@ -218,7 +218,7 @@
   {
     "id": "exp-28",
     "title": "Database Integration (MongoDB, PostgreSQL)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Database",
     "difficulty": "intermediate",
     "order_index": 28
@@ -226,7 +226,7 @@
   {
     "id": "exp-29",
     "title": "Mongoose ODM",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Database",
     "difficulty": "intermediate",
     "order_index": 29
@@ -234,7 +234,7 @@
   {
     "id": "exp-30",
     "title": "Environment Configuration",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Configuration",
     "difficulty": "beginner",
     "order_index": 30
@@ -242,7 +242,7 @@
   {
     "id": "exp-31",
     "title": "Testing Express Apps (Supertest)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Testing",
     "difficulty": "intermediate",
     "order_index": 31
@@ -250,7 +250,7 @@
   {
     "id": "exp-32",
     "title": "Deployment (Heroku, Vercel)",
-    "category": "Express",
+    "category": "express",
     "subcategory": "Deployment",
     "difficulty": "intermediate",
     "order_index": 32

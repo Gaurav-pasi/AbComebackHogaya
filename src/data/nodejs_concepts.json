@@ -2,7 +2,7 @@
   {
     "id": "node-1",
     "title": "What is Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 1
@@ -10,7 +10,7 @@
   {
     "id": "node-2",
     "title": "Node.js Architecture",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 2
@@ -18,7 +18,7 @@
   {
     "id": "node-3",
     "title": "V8 Engine",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "intermediate",
     "order_index": 3
@@ -26,7 +26,7 @@
   {
     "id": "node-4",
     "title": "Event Loop in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "advanced",
     "order_index": 4
@@ -34,7 +34,7 @@
   {
     "id": "node-5",
     "title": "Non-blocking I/O",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "intermediate",
     "order_index": 5
@@ -42,7 +42,7 @@
   {
     "id": "node-6",
     "title": "NPM (Node Package Manager)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Tools",
     "difficulty": "beginner",
     "order_index": 6
@@ -50,7 +50,7 @@
   {
     "id": "node-7",
     "title": "package.json",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Tools",
     "difficulty": "beginner",
     "order_index": 7
@@ -58,7 +58,7 @@
   {
     "id": "node-8",
     "title": "package-lock.json",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Tools",
     "difficulty": "beginner",
     "order_index": 8
@@ -66,7 +66,7 @@
   {
     "id": "node-9",
     "title": "CommonJS Modules (require/module.exports)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Modules",
     "difficulty": "beginner",
     "order_index": 9
@@ -74,7 +74,7 @@
   {
     "id": "node-10",
     "title": "ES Modules in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Modules",
     "difficulty": "intermediate",
     "order_index": 10
@@ -82,7 +82,7 @@
   {
     "id": "node-11",
     "title": "fs Module (File System)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 11
@@ -90,7 +90,7 @@
   {
     "id": "node-12",
     "title": "Reading and Writing Files",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 12
@@ -98,7 +98,7 @@
   {
     "id": "node-13",
     "title": "path Module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 13
@@ -106,7 +106,7 @@
   {
     "id": "node-14",
     "title": "http Module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 14
@@ -114,7 +114,7 @@
   {
     "id": "node-15",
     "title": "Creating HTTP Server",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 15
@@ -122,7 +122,7 @@
   {
     "id": "node-16",
     "title": "url Module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 16
@@ -130,7 +130,7 @@
   {
     "id": "node-17",
     "title": "os Module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "beginner",
     "order_index": 17
@@ -138,7 +138,7 @@
   {
     "id": "node-18",
     "title": "events Module (EventEmitter)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Core Modules",
     "difficulty": "intermediate",
     "order_index": 18
@@ -146,7 +146,7 @@
   {
     "id": "node-19",
     "title": "Streams (Readable, Writable)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Streams",
     "difficulty": "intermediate",
     "order_index": 19
@@ -154,7 +154,7 @@
   {
     "id": "node-20",
     "title": "Pipes and Piping",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Streams",
     "difficulty": "intermediate",
     "order_index": 20
@@ -162,7 +162,7 @@
   {
     "id": "node-21",
     "title": "Buffers",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Data Handling",
     "difficulty": "intermediate",
     "order_index": 21
@@ -170,7 +170,7 @@
   {
     "id": "node-22",
     "title": "Global Objects (process, __dirname, __filename)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 22
@@ -178,7 +178,7 @@
   {
     "id": "node-23",
     "title": "Environment Variables (process.env)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Configuration",
     "difficulty": "beginner",
     "order_index": 23
@@ -186,7 +186,7 @@
   {
     "id": "node-24",
     "title": "dotenv Package",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Configuration",
     "difficulty": "beginner",
     "order_index": 24
@@ -194,7 +194,7 @@
   {
     "id": "node-25",
     "title": "Child Processes",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Advanced",
     "difficulty": "advanced",
     "order_index": 25
@@ -202,7 +202,7 @@
   {
     "id": "node-26",
     "title": "Worker Threads",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Advanced",
     "difficulty": "advanced",
     "order_index": 26
@@ -210,7 +210,7 @@
   {
     "id": "node-27",
     "title": "Cluster Module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Scaling",
     "difficulty": "advanced",
     "order_index": 27
@@ -218,7 +218,7 @@
   {
     "id": "node-28",
     "title": "Asynchronous Patterns in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Async Programming",
     "difficulty": "intermediate",
     "order_index": 28
@@ -226,7 +226,7 @@
   {
     "id": "node-29",
     "title": "Callbacks in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Async Programming",
     "difficulty": "beginner",
     "order_index": 29
@@ -234,7 +234,7 @@
   {
     "id": "node-30",
     "title": "Promises in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Async Programming",
     "difficulty": "intermediate",
     "order_index": 30
@@ -242,7 +242,7 @@
   {
     "id": "node-31",
     "title": "async/await in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Async Programming",
     "difficulty": "intermediate",
     "order_index": 31
@@ -250,7 +250,7 @@
   {
     "id": "node-32",
     "title": "Error Handling in Node.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Error Handling",
     "difficulty": "intermediate",
     "order_index": 32
@@ -258,7 +258,7 @@
   {
     "id": "node-33",
     "title": "Custom Error Classes",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Error Handling",
     "difficulty": "intermediate",
     "order_index": 33
@@ -266,7 +266,7 @@
   {
     "id": "node-34",
     "title": "Debugging Node.js Applications",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Debugging",
     "difficulty": "intermediate",
     "order_index": 34
@@ -274,7 +274,7 @@
   {
     "id": "node-35",
     "title": "Logging (console, Winston, Morgan)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Debugging",
     "difficulty": "beginner",
     "order_index": 35
@@ -282,7 +282,7 @@
   {
     "id": "node-36",
     "title": "Testing (Jest, Mocha)",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Testing",
     "difficulty": "intermediate",
     "order_index": 36
@@ -290,7 +290,7 @@
   {
     "id": "node-37",
     "title": "Unit Testing",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Testing",
     "difficulty": "intermediate",
     "order_index": 37
@@ -298,7 +298,7 @@
   {
     "id": "node-38",
     "title": "Integration Testing",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Testing",
     "difficulty": "intermediate",
     "order_index": 38
@@ -306,7 +306,7 @@
   {
     "id": "node-39",
     "title": "RESTful API Basics",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "APIs",
     "difficulty": "intermediate",
     "order_index": 39
@@ -314,7 +314,7 @@
   {
     "id": "node-40",
     "title": "Building REST APIs with http module",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "APIs",
     "difficulty": "intermediate",
     "order_index": 40
@@ -322,7 +322,7 @@
   {
     "id": "node-41",
     "title": "Security Best Practices",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Security",
     "difficulty": "advanced",
     "order_index": 41
@@ -330,7 +330,7 @@
   {
     "id": "node-42",
     "title": "Helmet.js",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Security",
     "difficulty": "intermediate",
     "order_index": 42
@@ -338,7 +338,7 @@
   {
     "id": "node-43",
     "title": "Performance Optimization",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 43
@@ -346,7 +346,7 @@
   {
     "id": "node-44",
     "title": "Memory Management",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 44
@@ -354,7 +354,7 @@
   {
     "id": "node-45",
     "title": "Monitoring and Profiling",
-    "category": "Node.js",
+    "category": "nodejs",
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 45

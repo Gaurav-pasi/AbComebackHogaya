@@ -71,14 +71,14 @@ const Sidebar = ({ isOpen, onClose }) => {
                   className={cn(
                     'flex items-center space-x-3 px-4 py-3 mb-1 rounded-lg transition-all duration-200',
                     active
-                      ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 font-medium'
+                      ? 'bg-teal-50 dark:bg-teal-900/20 text-teal-600 dark:text-teal-400 font-medium'
                       : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
                   )}
                   aria-current={active ? 'page' : undefined}
                   role="listitem"
                 >
                   <Icon
-                    className={cn('w-5 h-5 flex-shrink-0', active ? 'text-blue-600 dark:text-blue-400' : '')}
+                    className={cn('w-5 h-5 flex-shrink-0', active ? 'text-teal-600 dark:text-teal-400' : '')}
                   />
                   <span className="truncate">{item.name}</span>
                 </Link>
@@ -88,7 +88,7 @@ const Sidebar = ({ isOpen, onClose }) => {
 
           {/* Footer */}
           <div className="p-4 border-t border-gray-200 dark:border-gray-700">
-            <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-4 text-white">
+            <div className="bg-gradient-to-r from-teal-500 to-purple-600 rounded-lg p-4 text-white">
               <p className="text-sm font-medium mb-1">Keep Learning!</p>
               <p className="text-xs opacity-90">Track your progress and stay consistent</p>
             </div>

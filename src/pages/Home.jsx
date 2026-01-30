@@ -22,7 +22,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-          <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
             AbComebackHogaya
           </span>
         </h1>
@@ -37,8 +37,8 @@ const Home = () => {
           <Card hover className="h-full">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-3">
-                <div className="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/20">
-                  <BookOpen className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                <div className="p-3 rounded-lg bg-teal-100 dark:bg-teal-900/20">
+                  <BookOpen className="w-6 h-6 text-teal-600 dark:text-teal-400" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Concepts</h3>
@@ -47,11 +47,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">{conceptsProgress}%</span>
+              <span className="text-2xl font-bold text-teal-600 dark:text-teal-400">{conceptsProgress}%</span>
             </div>
             <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
               <div
-                className="bg-blue-600 dark:bg-blue-400 h-2 rounded-full transition-all duration-300"
+                className="bg-gradient-to-r from-teal-500 to-teal-600 h-2 rounded-full transition-all duration-300"
                 style={{ width: `${conceptsProgress}%` }}
               />
             </div>
@@ -89,8 +89,8 @@ const Home = () => {
         <Link to="/concepts">
           <Card hover className="h-full">
             <div className="flex items-start space-x-4">
-              <div className="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/20">
-                <BookOpen className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+              <div className="p-3 rounded-lg bg-teal-100 dark:bg-teal-900/20">
+                <BookOpen className="w-6 h-6 text-teal-600 dark:text-teal-400" />
               </div>
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
@@ -99,7 +99,7 @@ const Home = () => {
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
                   290+ concepts across JavaScript, Node.js, Express, SQL, and System Architecture
                 </p>
-                <div className="flex items-center text-sm text-blue-600 dark:text-blue-400">
+                <div className="flex items-center text-sm text-teal-600 dark:text-teal-400">
                   <span>Start Learning →</span>
                 </div>
               </div>

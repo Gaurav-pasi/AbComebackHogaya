@@ -2,7 +2,7 @@
   {
     "id": "sql-1",
     "title": "What is SQL",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 1
@@ -10,7 +10,7 @@
   {
     "id": "sql-2",
     "title": "Databases and Tables",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 2
@@ -18,7 +18,7 @@
   {
     "id": "sql-3",
     "title": "Data Types",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Fundamentals",
     "difficulty": "beginner",
     "order_index": 3
@@ -26,7 +26,7 @@
   {
     "id": "sql-4",
     "title": "CREATE DATABASE",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DDL",
     "difficulty": "beginner",
     "order_index": 4
@@ -34,7 +34,7 @@
   {
     "id": "sql-5",
     "title": "CREATE TABLE",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DDL",
     "difficulty": "beginner",
     "order_index": 5
@@ -42,7 +42,7 @@
   {
     "id": "sql-6",
     "title": "ALTER TABLE",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DDL",
     "difficulty": "beginner",
     "order_index": 6
@@ -50,7 +50,7 @@
   {
     "id": "sql-7",
     "title": "DROP TABLE and DROP DATABASE",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DDL",
     "difficulty": "beginner",
     "order_index": 7
@@ -58,7 +58,7 @@
   {
     "id": "sql-8",
     "title": "TRUNCATE TABLE",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DDL",
     "difficulty": "beginner",
     "order_index": 8
@@ -66,7 +66,7 @@
   {
     "id": "sql-9",
     "title": "SELECT Statement",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 9
@@ -74,7 +74,7 @@
   {
     "id": "sql-10",
     "title": "WHERE Clause",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 10
@@ -82,7 +82,7 @@
   {
     "id": "sql-11",
     "title": "AND, OR, NOT Operators",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 11
@@ -90,7 +90,7 @@
   {
     "id": "sql-12",
     "title": "ORDER BY",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 12
@@ -98,7 +98,7 @@
   {
     "id": "sql-13",
     "title": "LIMIT and OFFSET",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 13
@@ -106,7 +106,7 @@
   {
     "id": "sql-14",
     "title": "DISTINCT",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DQL",
     "difficulty": "beginner",
     "order_index": 14
@@ -114,7 +114,7 @@
   {
     "id": "sql-15",
     "title": "INSERT INTO",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DML",
     "difficulty": "beginner",
     "order_index": 15
@@ -122,7 +122,7 @@
   {
     "id": "sql-16",
     "title": "UPDATE Statement",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DML",
     "difficulty": "beginner",
     "order_index": 16
@@ -130,7 +130,7 @@
   {
     "id": "sql-17",
     "title": "DELETE Statement",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "DML",
     "difficulty": "beginner",
     "order_index": 17
@@ -138,7 +138,7 @@
   {
     "id": "sql-18",
     "title": "LIKE Operator and Wildcards",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Operators",
     "difficulty": "beginner",
     "order_index": 18
@@ -146,7 +146,7 @@
   {
     "id": "sql-19",
     "title": "IN Operator",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Operators",
     "difficulty": "beginner",
     "order_index": 19
@@ -154,7 +154,7 @@
   {
     "id": "sql-20",
     "title": "BETWEEN Operator",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Operators",
     "difficulty": "beginner",
     "order_index": 20
@@ -162,7 +162,7 @@
   {
     "id": "sql-21",
     "title": "IS NULL and IS NOT NULL",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Operators",
     "difficulty": "beginner",
     "order_index": 21
@@ -170,7 +170,7 @@
   {
     "id": "sql-22",
     "title": "Aggregate Functions (COUNT, SUM, AVG)",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Functions",
     "difficulty": "intermediate",
     "order_index": 22
@@ -178,7 +178,7 @@
   {
     "id": "sql-23",
     "title": "MIN and MAX",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Functions",
     "difficulty": "beginner",
     "order_index": 23
@@ -186,7 +186,7 @@
   {
     "id": "sql-24",
     "title": "GROUP BY",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Grouping",
     "difficulty": "intermediate",
     "order_index": 24
@@ -194,7 +194,7 @@
   {
     "id": "sql-25",
     "title": "HAVING Clause",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Grouping",
     "difficulty": "intermediate",
     "order_index": 25
@@ -202,7 +202,7 @@
   {
     "id": "sql-26",
     "title": "Primary Key",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "beginner",
     "order_index": 26
@@ -210,7 +210,7 @@
   {
     "id": "sql-27",
     "title": "Foreign Key",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "intermediate",
     "order_index": 27
@@ -218,7 +218,7 @@
   {
     "id": "sql-28",
     "title": "UNIQUE Constraint",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "beginner",
     "order_index": 28
@@ -226,7 +226,7 @@
   {
     "id": "sql-29",
     "title": "NOT NULL Constraint",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "beginner",
     "order_index": 29
@@ -234,7 +234,7 @@
   {
     "id": "sql-30",
     "title": "CHECK Constraint",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "intermediate",
     "order_index": 30
@@ -242,7 +242,7 @@
   {
     "id": "sql-31",
     "title": "DEFAULT Constraint",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Constraints",
     "difficulty": "beginner",
     "order_index": 31
@@ -250,7 +250,7 @@
   {
     "id": "sql-32",
     "title": "INNER JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "intermediate",
     "order_index": 32
@@ -258,7 +258,7 @@
   {
     "id": "sql-33",
     "title": "LEFT JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "intermediate",
     "order_index": 33
@@ -266,7 +266,7 @@
   {
     "id": "sql-34",
     "title": "RIGHT JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "intermediate",
     "order_index": 34
@@ -274,7 +274,7 @@
   {
     "id": "sql-35",
     "title": "FULL OUTER JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "intermediate",
     "order_index": 35
@@ -282,7 +282,7 @@
   {
     "id": "sql-36",
     "title": "CROSS JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "intermediate",
     "order_index": 36
@@ -290,7 +290,7 @@
   {
     "id": "sql-37",
     "title": "SELF JOIN",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Joins",
     "difficulty": "advanced",
     "order_index": 37
@@ -298,7 +298,7 @@
   {
     "id": "sql-38",
     "title": "Subqueries",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced Queries",
     "difficulty": "intermediate",
     "order_index": 38
@@ -306,7 +306,7 @@
   {
     "id": "sql-39",
     "title": "Correlated Subqueries",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced Queries",
     "difficulty": "advanced",
     "order_index": 39
@@ -314,7 +314,7 @@
   {
     "id": "sql-40",
     "title": "EXISTS Operator",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced Queries",
     "difficulty": "intermediate",
     "order_index": 40
@@ -322,7 +322,7 @@
   {
     "id": "sql-41",
     "title": "UNION and UNION ALL",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Set Operations",
     "difficulty": "intermediate",
     "order_index": 41
@@ -330,7 +330,7 @@
   {
     "id": "sql-42",
     "title": "INTERSECT",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Set Operations",
     "difficulty": "intermediate",
     "order_index": 42
@@ -338,7 +338,7 @@
   {
     "id": "sql-43",
     "title": "EXCEPT (or MINUS)",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Set Operations",
     "difficulty": "intermediate",
     "order_index": 43
@@ -346,7 +346,7 @@
   {
     "id": "sql-44",
     "title": "Indexes",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Performance",
     "difficulty": "intermediate",
     "order_index": 44
@@ -354,7 +354,7 @@
   {
     "id": "sql-45",
     "title": "Views",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced",
     "difficulty": "intermediate",
     "order_index": 45
@@ -362,7 +362,7 @@
   {
     "id": "sql-46",
     "title": "Stored Procedures",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced",
     "difficulty": "advanced",
     "order_index": 46
@@ -370,7 +370,7 @@
   {
     "id": "sql-47",
     "title": "Triggers",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Advanced",
     "difficulty": "advanced",
     "order_index": 47
@@ -378,7 +378,7 @@
   {
     "id": "sql-48",
     "title": "Transactions (BEGIN, COMMIT, ROLLBACK)",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Transactions",
     "difficulty": "intermediate",
     "order_index": 48
@@ -386,7 +386,7 @@
   {
     "id": "sql-49",
     "title": "ACID Properties",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Transactions",
     "difficulty": "intermediate",
     "order_index": 49
@@ -394,7 +394,7 @@
   {
     "id": "sql-50",
     "title": "Normalization (1NF, 2NF, 3NF)",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Database Design",
     "difficulty": "intermediate",
     "order_index": 50
@@ -402,7 +402,7 @@
   {
     "id": "sql-51",
     "title": "Denormalization",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Database Design",
     "difficulty": "advanced",
     "order_index": 51
@@ -410,7 +410,7 @@
   {
     "id": "sql-52",
     "title": "Query Optimization Techniques",
-    "category": "SQL",
+    "category": "sql",
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 52
