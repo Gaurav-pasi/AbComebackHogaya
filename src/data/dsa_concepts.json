@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dsa-two-pointers",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Two Pointers Pattern",
+    "description": "Master the two pointers technique for solving array problems efficiently. Learn when and how to use this pattern.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["patterns", "array", "optimization"],
+    "order_index": 1
+  },
+  {
+    "id": "dsa-sliding-window",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Sliding Window Pattern",
+    "description": "Learn the sliding window technique for substring and subarray problems with optimal time complexity.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["patterns", "string", "optimization"],
+    "order_index": 2
+  },
+  {
+    "id": "dsa-dynamic-programming",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Dynamic Programming: Memoization and Tabulation",
+    "description": "Understand DP fundamentals, recursive solutions, memoization, and bottom-up tabulation approach.",
+    "difficulty": "advanced",
+    "estimated_time_minutes": 60,
+    "resources": [],
+    "tags": ["patterns", "optimization", "recursion"],
+    "order_index": 3
+  },
+  {
+    "id": "dsa-backtracking",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Backtracking: Exploring All Possibilities",
+    "description": "Learn backtracking for permutations, combinations, and constraint satisfaction problems.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["patterns", "recursion", "exploration"],
+    "order_index": 4
+  },
+  {
+    "id": "dsa-dfs",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Depth-First Search (DFS) and Traversal",
+    "description": "Master DFS for graphs and trees, iterative and recursive implementations, and common applications.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["patterns", "graphs", "trees"],
+    "order_index": 5
+  },
+  {
+    "id": "dsa-bfs",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Breadth-First Search (BFS) and Level-Order Traversal",
+    "description": "Learn BFS for shortest path, level-order traversal, and queue-based exploration techniques.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["patterns", "graphs", "trees"],
+    "order_index": 6
+  },
+  {
+    "id": "dsa-binary-search",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Binary Search and Search Variations",
+    "description": "Master binary search, search boundaries, and variations like searching in rotated arrays.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["patterns", "search", "optimization"],
+    "order_index": 7
+  },
+  {
+    "id": "dsa-greedy",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Greedy Algorithms: Making Optimal Local Choices",
+    "description": "Learn greedy approach, when it works, and problems where greedy provides optimal solutions.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["patterns", "optimization", "algorithms"],
+    "order_index": 8
+  },
+  {
+    "id": "dsa-union-find",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Union-Find (Disjoint Set Union) Data Structure",
+    "description": "Understand union-find for cycle detection, connected components, and graph connectivity problems.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["patterns", "graphs", "data-structures"],
+    "order_index": 9
+  },
+  {
+    "id": "dsa-topological-sort",
+    "category_id": "dsa",
+    "subcategory": "Patterns",
+    "title": "Topological Sorting: Dependency Resolution",
+    "description": "Learn topological sorting using DFS and Kahn's algorithm for directed acyclic graphs.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["patterns", "graphs", "sorting"],
+    "order_index": 10
+  }
+]

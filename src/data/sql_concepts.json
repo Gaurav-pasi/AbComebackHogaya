@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sql-basics",
+    "category_id": "sql",
+    "subcategory": "Fundamentals",
+    "title": "SQL Basics: SELECT, WHERE, and ORDER BY",
+    "description": "Learn fundamental SQL queries including SELECT statements, WHERE clauses for filtering, and ORDER BY for sorting.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["queries", "fundamentals"],
+    "order_index": 1
+  },
+  {
+    "id": "sql-joins",
+    "category_id": "sql",
+    "subcategory": "Relationships",
+    "title": "Joins: INNER, LEFT, RIGHT, FULL OUTER",
+    "description": "Master different types of joins to combine data from multiple tables and understand join relationships.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["joins", "relationships", "tables"],
+    "order_index": 2
+  },
+  {
+    "id": "sql-aggregation",
+    "category_id": "sql",
+    "subcategory": "Data Analysis",
+    "title": "Aggregation Functions: COUNT, SUM, AVG, GROUP BY",
+    "description": "Learn aggregate functions, GROUP BY clause, HAVING clause for filtering grouped data.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["aggregation", "grouping", "analysis"],
+    "order_index": 3
+  },
+  {
+    "id": "sql-subqueries",
+    "category_id": "sql",
+    "subcategory": "Advanced Queries",
+    "title": "Subqueries and Nested Queries",
+    "description": "Write subqueries in SELECT, FROM, WHERE clauses, correlated subqueries, and EXISTS clause.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["subqueries", "advanced"],
+    "order_index": 4
+  },
+  {
+    "id": "sql-schema-design",
+    "category_id": "sql",
+    "subcategory": "Database Design",
+    "title": "Schema Design and Normalization",
+    "description": "Understand database normalization (1NF to 3NF), primary keys, foreign keys, and relationships.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["schema", "normalization", "design"],
+    "order_index": 5
+  },
+  {
+    "id": "sql-indexes",
+    "category_id": "sql",
+    "subcategory": "Performance",
+    "title": "Indexes and Query Optimization",
+    "description": "Learn about indexes, query execution plans, and optimization techniques for better performance.",
+    "difficulty": "advanced",
+    "estimated_time_minutes": 50,
+    "resources": [],
+    "tags": ["performance", "optimization", "indexes"],
+    "order_index": 6
+  },
+  {
+    "id": "sql-transactions",
+    "category_id": "sql",
+    "subcategory": "Advanced Features",
+    "title": "Transactions: ACID Properties",
+    "description": "Understand ACID transactions, BEGIN, COMMIT, ROLLBACK, and isolation levels.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["transactions", "acid", "data-integrity"],
+    "order_index": 7
+  },
+  {
+    "id": "sql-window-functions",
+    "category_id": "sql",
+    "subcategory": "Advanced Queries",
+    "title": "Window Functions: OVER, PARTITION BY, ROW_NUMBER",
+    "description": "Learn window functions for analytical queries, ranking, and running calculations.",
+    "difficulty": "advanced",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["window-functions", "analytics", "advanced"],
+    "order_index": 8
+  },
+  {
+    "id": "sql-stored-procedures",
+    "category_id": "sql",
+    "subcategory": "Advanced Features",
+    "title": "Stored Procedures and Triggers",
+    "description": "Write stored procedures, functions, triggers for database logic, and cursor handling.",
+    "difficulty": "advanced",
+    "estimated_time_minutes": 50,
+    "resources": [],
+    "tags": ["procedures", "triggers", "database-logic"],
+    "order_index": 9
+  },
+  {
+    "id": "sql-cte",
+    "category_id": "sql",
+    "subcategory": "Advanced Queries",
+    "title": "CTEs (Common Table Expressions) and Recursive Queries",
+    "description": "Use WITH clause for CTEs, write recursive CTEs for hierarchical data and complex queries.",
+    "difficulty": "advanced",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["cte", "recursive", "advanced"],
+    "order_index": 10
+  }
+]

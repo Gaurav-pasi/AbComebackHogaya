@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nodejs-intro",
+    "category_id": "nodejs",
+    "subcategory": "Basics",
+    "title": "What is Node.js and How It Works",
+    "description": "Understand Node.js as a JavaScript runtime built on V8 engine, its event-driven architecture, and single-threaded event loop model.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 30,
+    "resources": [],
+    "tags": ["basics", "runtime", "event-driven"],
+    "order_index": 1
+  },
+  {
+    "id": "nodejs-modules",
+    "category_id": "nodejs",
+    "subcategory": "Module System",
+    "title": "Modules and npm Package Manager",
+    "description": "Learn about CommonJS modules, require/module.exports, npm, package.json, and managing dependencies.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["modules", "npm", "packages"],
+    "order_index": 2
+  },
+  {
+    "id": "nodejs-fs",
+    "category_id": "nodejs",
+    "subcategory": "Core Modules",
+    "title": "File System (fs) Module",
+    "description": "Master file operations including reading, writing, deleting files. Learn callback vs promises vs streams for file handling.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["fs", "file-handling", "streams"],
+    "order_index": 3
+  },
+  {
+    "id": "nodejs-http",
+    "category_id": "nodejs",
+    "subcategory": "Core Modules",
+    "title": "HTTP Server and Web Basics",
+    "description": "Create HTTP servers, handle requests/responses, understand status codes and headers.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["http", "server", "web"],
+    "order_index": 4
+  },
+  {
+    "id": "nodejs-event-emitter",
+    "category_id": "nodejs",
+    "subcategory": "Core Modules",
+    "title": "Event Emitter Pattern",
+    "description": "Understand EventEmitter, event listeners, emitting events, and the observer pattern in Node.js.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 35,
+    "resources": [],
+    "tags": ["events", "emitter", "patterns"],
+    "order_index": 5
+  },
+  {
+    "id": "nodejs-streams",
+    "category_id": "nodejs",
+    "subcategory": "Core Modules",
+    "title": "Streams and Buffers",
+    "description": "Learn readable, writable, and transform streams for efficient data handling. Understand backpressure and piping.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["streams", "buffers", "efficiency"],
+    "order_index": 6
+  },
+  {
+    "id": "nodejs-async-patterns",
+    "category_id": "nodejs",
+    "subcategory": "Asynchronous Programming",
+    "title": "Async Patterns: Callbacks, Promises, Async/Await",
+    "description": "Master asynchronous programming patterns in Node.js including error handling and flow control.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 45,
+    "resources": [],
+    "tags": ["async", "callbacks", "promises"],
+    "order_index": 7
+  },
+  {
+    "id": "nodejs-working-with-json",
+    "category_id": "nodejs",
+    "subcategory": "Data Handling",
+    "title": "Working with JSON and Environment Variables",
+    "description": "Parse and stringify JSON, work with environment variables using .env files and process.env.",
+    "difficulty": "beginner",
+    "estimated_time_minutes": 25,
+    "resources": [],
+    "tags": ["json", "environment", "config"],
+    "order_index": 8
+  },
+  {
+    "id": "nodejs-debugging",
+    "category_id": "nodejs",
+    "subcategory": "Developer Tools",
+    "title": "Debugging Node.js Applications",
+    "description": "Learn debugging techniques including console methods, node debugger, Chrome DevTools, and logging strategies.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["debugging", "tools", "testing"],
+    "order_index": 9
+  },
+  {
+    "id": "nodejs-cli",
+    "category_id": "nodejs",
+    "subcategory": "Building Tools",
+    "title": "Building Command Line Interface (CLI) Applications",
+    "description": "Create CLI tools with argument parsing, colors, progress bars, and interactive prompts.",
+    "difficulty": "intermediate",
+    "estimated_time_minutes": 40,
+    "resources": [],
+    "tags": ["cli", "automation", "tools"],
+    "order_index": 10
+  }
+]

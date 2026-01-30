@@ -1,0 +1,170 @@
+[
+  {
+    "id": "chat-app",
+    "title": "Real-Time Chat Application",
+    "description": "Build a feature-rich chat application with real-time messaging using WebSockets. Implement user authentication, one-to-one and group chats, typing indicators, and message history.",
+    "tech_stack": ["Node.js", "Socket.IO", "React", "MongoDB"],
+    "difficulty": "intermediate",
+    "estimated_hours": 20,
+    "requirements": [
+      "User registration and authentication",
+      "Real-time messaging",
+      "Group chats",
+      "Typing indicators",
+      "Online status",
+      "Message persistence",
+      "File sharing"
+    ],
+    "order_index": 1
+  },
+  {
+    "id": "task-management",
+    "title": "Task Management System",
+    "description": "Create a productivity app with task creation, assignment, and tracking. Include features like priority levels, due dates, reminders, and team collaboration capabilities.",
+    "tech_stack": ["React", "Node.js", "Express", "PostgreSQL", "Redis"],
+    "difficulty": "intermediate",
+    "estimated_hours": 25,
+    "requirements": [
+      "Task CRUD operations",
+      "User roles and permissions",
+      "Priority and status tracking",
+      "Due date management",
+      "Notifications",
+      "Team collaboration",
+      "Comments and attachments"
+    ],
+    "order_index": 2
+  },
+  {
+    "id": "e-commerce",
+    "title": "E-Commerce Platform",
+    "description": "Build a full-stack e-commerce application with product catalog, shopping cart, payment integration, and order management. Implement search, filtering, and admin dashboard.",
+    "tech_stack": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "difficulty": "advanced",
+    "estimated_hours": 40,
+    "requirements": [
+      "Product catalog with search and filters",
+      "User authentication",
+      "Shopping cart",
+      "Payment gateway integration",
+      "Order management",
+      "Admin dashboard",
+      "User reviews and ratings",
+      "Inventory tracking"
+    ],
+    "order_index": 3
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather Dashboard",
+    "description": "Create a weather application that displays current weather and forecasts using a public API. Include features like location search, multiple location tracking, and weather alerts.",
+    "tech_stack": ["React", "Node.js", "OpenWeatherMap API", "Mapbox"],
+    "difficulty": "beginner",
+    "estimated_hours": 12,
+    "requirements": [
+      "Current weather display",
+      "7-day forecast",
+      "Location search",
+      "Temperature unit toggle",
+      "Multiple location bookmarks",
+      "Weather alerts",
+      "Map integration"
+    ],
+    "order_index": 4
+  },
+  {
+    "id": "blog-platform",
+    "title": "Blogging Platform",
+    "description": "Develop a complete blogging platform with user accounts, post creation, comments, and a public blog feed. Include features like markdown support, tagging, and search functionality.",
+    "tech_stack": ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    "difficulty": "intermediate",
+    "estimated_hours": 22,
+    "requirements": [
+      "User authentication",
+      "Post creation and editing",
+      "Comment system",
+      "Tag system",
+      "Search functionality",
+      "Like/bookmark posts",
+      "User profiles",
+      "Admin panel"
+    ],
+    "order_index": 5
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Personal Expense Tracker",
+    "description": "Build a personal finance app to track expenses and income. Include categories, budgets, reports, and data visualization with charts for spending analysis.",
+    "tech_stack": ["React", "Node.js", "MongoDB", "Chart.js"],
+    "difficulty": "intermediate",
+    "estimated_hours": 18,
+    "requirements": [
+      "Expense recording",
+      "Income tracking",
+      "Budget creation",
+      "Category management",
+      "Monthly/yearly reports",
+      "Charts and analytics",
+      "Data export",
+      "Receipt uploads"
+    ],
+    "order_index": 6
+  },
+  {
+    "id": "video-streaming",
+    "title": "Video Streaming Platform",
+    "description": "Create a video streaming service similar to YouTube with video upload, playback, comments, likes, and recommendations. Include search and categorization features.",
+    "tech_stack": ["React", "Node.js", "MongoDB", "FFmpeg", "AWS S3"],
+    "difficulty": "advanced",
+    "estimated_hours": 35,
+    "requirements": [
+      "Video upload and transcoding",
+      "Adaptive bitrate streaming",
+      "Comments and likes",
+      "Playlists",
+      "Search and recommendations",
+      "User subscriptions",
+      "Analytics dashboard",
+      "Thumbnail generation"
+    ],
+    "order_index": 7
+  },
+  {
+    "id": "social-network",
+    "title": "Social Network Platform",
+    "description": "Build a social networking application with user profiles, friend connections, posts, likes, comments, and direct messaging. Include newsfeed and notifications.",
+    "tech_stack": ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    "difficulty": "advanced",
+    "estimated_hours": 30,
+    "requirements": [
+      "User profiles",
+      "Friend/follow system",
+      "Post creation and sharing",
+      "Likes and comments",
+      "Direct messaging",
+      "Notifications",
+      "Newsfeed algorithm",
+      "Privacy controls"
+    ],
+    "order_index": 8
+  },
+  {
+    "id": "project-collaboration",
+    "title": "Project Collaboration Tool",
+    "description": "Develop a tool for team project collaboration with Kanban boards, sprint planning, file sharing, and team communication. Include real-time updates and notifications.",
+    "tech_stack": ["React", "Vue.js", "Node.js", "WebSocket", "PostgreSQL"],
+    "difficulty": "advanced",
+    "estimated_hours": 28,
+    "requirements": [
+      "Kanban board",
+      "Sprint management",
+      "Task assignment",
+      "File collaboration",
+      "Team chat",
+      "Activity timeline",
+      "Notifications",
+      "Reporting"
+    ],
+    "order_index": 9
+  }
+]

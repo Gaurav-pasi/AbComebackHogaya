@@ -1,0 +1,482 @@
+[
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "easy",
+    "patterns": ["hashmap", "array"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 1
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "easy",
+    "patterns": ["stack", "string"],
+    "companies": ["Google", "Meta", "Apple"],
+    "order_index": 2
+  },
+  {
+    "id": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "easy",
+    "patterns": ["string", "two-pointers"],
+    "companies": ["Microsoft", "Apple"],
+    "order_index": 3
+  },
+  {
+    "id": "palindrome-number",
+    "title": "Palindrome Number",
+    "difficulty": "easy",
+    "patterns": ["math", "string"],
+    "companies": ["Amazon", "Yahoo"],
+    "order_index": 4
+  },
+  {
+    "id": "best-time-to-buy-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "easy",
+    "patterns": ["array", "dynamic-programming"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 5
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "easy",
+    "patterns": ["linked-list", "two-pointers"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 6
+  },
+  {
+    "id": "remove-duplicates",
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "easy",
+    "patterns": ["array", "two-pointers"],
+    "companies": ["Google", "Adobe"],
+    "order_index": 7
+  },
+  {
+    "id": "max-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "medium",
+    "patterns": ["array", "dynamic-programming", "kadane"],
+    "companies": ["Amazon", "Microsoft", "Google"],
+    "order_index": 8
+  },
+  {
+    "id": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "difficulty": "easy",
+    "patterns": ["array", "hashmap", "set"],
+    "companies": ["Google", "Facebook"],
+    "order_index": 9
+  },
+  {
+    "id": "move-zeroes",
+    "title": "Move Zeroes",
+    "difficulty": "easy",
+    "patterns": ["array", "two-pointers"],
+    "companies": ["Bloomberg", "Google"],
+    "order_index": 10
+  },
+  {
+    "id": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "difficulty": "easy",
+    "patterns": ["linked-list", "two-pointers", "hash-table"],
+    "companies": ["Meta", "Adobe"],
+    "order_index": 11
+  },
+  {
+    "id": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "difficulty": "easy",
+    "patterns": ["tree", "recursion", "bfs"],
+    "companies": ["Google", "Meta"],
+    "order_index": 12
+  },
+  {
+    "id": "is-palindrome",
+    "title": "Valid Palindrome",
+    "difficulty": "easy",
+    "patterns": ["string", "two-pointers"],
+    "companies": ["Meta", "Google"],
+    "order_index": 13
+  },
+  {
+    "id": "intersection-two-arrays",
+    "title": "Intersection of Two Arrays",
+    "difficulty": "easy",
+    "patterns": ["array", "hashmap", "set"],
+    "companies": ["Google", "Facebook"],
+    "order_index": 14
+  },
+  {
+    "id": "happy-number",
+    "title": "Happy Number",
+    "difficulty": "easy",
+    "patterns": ["hashmap", "math", "cycle-detection"],
+    "companies": ["Airbnb", "LinkedIn"],
+    "order_index": 15
+  },
+  {
+    "id": "first-unique-character",
+    "title": "First Unique Character in a String",
+    "difficulty": "easy",
+    "patterns": ["string", "hashmap"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 16
+  },
+  {
+    "id": "majority-element",
+    "title": "Majority Element",
+    "difficulty": "easy",
+    "patterns": ["array", "hashmap", "boyer-moore"],
+    "companies": ["Amazon", "Microsoft"],
+    "order_index": 17
+  },
+  {
+    "id": "two-sum-sorted",
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "medium",
+    "patterns": ["array", "two-pointers"],
+    "companies": ["Meta", "Google"],
+    "order_index": 18
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "medium",
+    "patterns": ["array", "two-pointers", "sorting"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 19
+  },
+  {
+    "id": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "medium",
+    "patterns": ["array", "two-pointers", "greedy"],
+    "companies": ["Amazon", "Microsoft", "Google"],
+    "order_index": 20
+  },
+  {
+    "id": "search-in-rotated-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "medium",
+    "patterns": ["array", "binary-search"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 21
+  },
+  {
+    "id": "find-first-last-position",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "medium",
+    "patterns": ["array", "binary-search"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 22
+  },
+  {
+    "id": "search-insert-position",
+    "title": "Search Insert Position",
+    "difficulty": "easy",
+    "patterns": ["array", "binary-search"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 23
+  },
+  {
+    "id": "letter-combinations-phone",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "recursion", "string"],
+    "companies": ["Amazon", "Google", "Meta"],
+    "order_index": 24
+  },
+  {
+    "id": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "recursion"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 25
+  },
+  {
+    "id": "permutations",
+    "title": "Permutations",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "recursion"],
+    "companies": ["Google", "Meta", "Microsoft"],
+    "order_index": 26
+  },
+  {
+    "id": "combinations",
+    "title": "Combinations",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "recursion"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 27
+  },
+  {
+    "id": "word-search",
+    "title": "Word Search",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "dfs", "matrix"],
+    "companies": ["Amazon", "Google"],
+    "order_index": 28
+  },
+  {
+    "id": "subsets",
+    "title": "Subsets",
+    "difficulty": "medium",
+    "patterns": ["backtracking", "bit-manipulation"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 29
+  },
+  {
+    "id": "word-ladder",
+    "title": "Word Ladder",
+    "difficulty": "hard",
+    "patterns": ["bfs", "graph"],
+    "companies": ["Amazon", "Facebook"],
+    "order_index": 30
+  },
+  {
+    "id": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "medium",
+    "patterns": ["graph", "topological-sort", "dfs"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 31
+  },
+  {
+    "id": "clone-graph",
+    "title": "Clone Graph",
+    "difficulty": "medium",
+    "patterns": ["graph", "dfs", "bfs"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 32
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "medium",
+    "patterns": ["graph", "dfs", "bfs", "matrix"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 33
+  },
+  {
+    "id": "surrounded-regions",
+    "title": "Surrounded Regions",
+    "difficulty": "medium",
+    "patterns": ["graph", "dfs", "bfs", "matrix"],
+    "companies": ["Google", "Meta"],
+    "order_index": 34
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "medium",
+    "patterns": ["graph", "dfs", "union-find"],
+    "companies": ["Google", "Uber"],
+    "order_index": 35
+  },
+  {
+    "id": "pacific-atlantic-water-flow",
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "medium",
+    "patterns": ["graph", "dfs", "matrix"],
+    "companies": ["Google", "Meta"],
+    "order_index": 36
+  },
+  {
+    "id": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "medium",
+    "patterns": ["hashmap", "set", "array"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 37
+  },
+  {
+    "id": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "difficulty": "hard",
+    "patterns": ["graph", "topological-sort"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 38
+  },
+  {
+    "id": "max-points-on-line",
+    "title": "Max Points on a Line",
+    "difficulty": "hard",
+    "patterns": ["hashmap", "math", "geometry"],
+    "companies": ["Google", "LinkedIn"],
+    "order_index": 39
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "hard",
+    "patterns": ["array", "dynamic-programming", "two-pointers"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 40
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "medium",
+    "patterns": ["string", "dynamic-programming", "expand-around-center"],
+    "companies": ["Amazon", "Google", "Meta"],
+    "order_index": 41
+  },
+  {
+    "id": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "medium",
+    "patterns": ["string", "math"],
+    "companies": ["Google", "LinkedIn"],
+    "order_index": 42
+  },
+  {
+    "id": "string-compression",
+    "title": "String Compression",
+    "difficulty": "easy",
+    "patterns": ["string", "two-pointers"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 43
+  },
+  {
+    "id": "rotate-array",
+    "title": "Rotate Array",
+    "difficulty": "medium",
+    "patterns": ["array", "two-pointers"],
+    "companies": ["Amazon", "Google"],
+    "order_index": 44
+  },
+  {
+    "id": "product-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "medium",
+    "patterns": ["array", "prefix-sum"],
+    "companies": ["Amazon", "Apple", "Microsoft"],
+    "order_index": 45
+  },
+  {
+    "id": "min-window-substring",
+    "title": "Minimum Window Substring",
+    "difficulty": "hard",
+    "patterns": ["string", "sliding-window", "hashmap"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 46
+  },
+  {
+    "id": "longest-substring-without-repeating",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "medium",
+    "patterns": ["string", "sliding-window", "hashmap"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 47
+  },
+  {
+    "id": "permutation-in-string",
+    "title": "Permutation in String",
+    "difficulty": "medium",
+    "patterns": ["string", "sliding-window"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 48
+  },
+  {
+    "id": "find-all-anagrams",
+    "title": "Find All Anagrams in a String",
+    "difficulty": "medium",
+    "patterns": ["string", "sliding-window", "hashmap"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 49
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "medium",
+    "patterns": ["string", "hashmap"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 50
+  },
+  {
+    "id": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "difficulty": "medium",
+    "patterns": ["hashmap", "set", "matrix"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 51
+  },
+  {
+    "id": "rotate-matrix",
+    "title": "Rotate Image",
+    "difficulty": "medium",
+    "patterns": ["matrix", "array"],
+    "companies": ["Google", "Amazon", "Microsoft"],
+    "order_index": 52
+  },
+  {
+    "id": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "difficulty": "medium",
+    "patterns": ["matrix", "array"],
+    "companies": ["Amazon", "Google"],
+    "order_index": 53
+  },
+  {
+    "id": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "medium",
+    "patterns": ["matrix", "array", "space-optimization"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 54
+  },
+  {
+    "id": "binary-tree-level-order",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "medium",
+    "patterns": ["tree", "bfs", "queue"],
+    "companies": ["Google", "Meta", "Amazon"],
+    "order_index": 55
+  },
+  {
+    "id": "lowest-common-ancestor",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "medium",
+    "patterns": ["tree", "dfs", "recursion"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 56
+  },
+  {
+    "id": "serialize-deserialize-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "hard",
+    "patterns": ["tree", "dfs", "bfs"],
+    "companies": ["Google", "Amazon", "Meta"],
+    "order_index": 57
+  },
+  {
+    "id": "construct-tree-from-preorder",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "medium",
+    "patterns": ["tree", "recursion", "hashmap"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 58
+  },
+  {
+    "id": "balanced-binary-tree",
+    "title": "Balanced Binary Tree",
+    "difficulty": "easy",
+    "patterns": ["tree", "recursion", "dfs"],
+    "companies": ["Google", "Amazon"],
+    "order_index": 59
+  },
+  {
+    "id": "kth-largest-element",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "medium",
+    "patterns": ["heap", "quickselect", "array"],
+    "companies": ["Amazon", "Google", "Meta"],
+    "order_index": 60
+  }
+]
