@@ -2,8 +2,7 @@ import { storage } from '../lib/localStorage';
 import { STORAGE_KEYS } from '../utils/constants';
 import { useAppStore } from '../store';
 
-// Import seed data (these will be created as separate JSON files)
-// For now, we'll define inline for initial setup
+// Import seed data
 import javascriptConcepts from './javascript_concepts.json';
 import nodejsConcepts from './nodejs_concepts.json';
 import expressConcepts from './express_concepts.json';
@@ -13,11 +12,14 @@ import systemArchitectureConcepts from './system_architecture_concepts.json';
 import dsaProblems from './dsa_problems.json';
 import portfolioProjects from './portfolio_projects.json';
 
-export function initializeSeedData() {
-  // Check if already initialized
-  const initialized = storage.get(STORAGE_KEYS.INITIALIZED);
+const DATA_VERSION = '2.0'; // Increment this when data structure changes
 
-  if (!initialized) {
+export function initializeSeedData() {
+  // Check if already initialized with current version
+  const initialized = storage.get(STORAGE_KEYS.INITIALIZED);
+  const currentVersion = storage.get('data_version');
+
+  if (!initialized || currentVersion !== DATA_VERSION) {
     console.log('Initializing seed data...');
 
     try {
@@ -31,6 +33,9 @@ export function initializeSeedData() {
         ...systemArchitectureConcepts,
       ];
 
+      console.log('Total concepts to load:', allConcepts.length);
+      console.log('Sample concept:', allConcepts[0]);
+
       // Load into store
       const store = useAppStore.getState();
       store.loadSeedData({
@@ -39,8 +44,9 @@ export function initializeSeedData() {
         projects: portfolioProjects,
       });
 
-      // Mark as initialized
+      // Mark as initialized with version
       storage.set(STORAGE_KEYS.INITIALIZED, true);
+      storage.set('data_version', DATA_VERSION);
 
       console.log('Seed data initialized successfully!');
       console.log(`Loaded ${allConcepts.length} concepts`);
@@ -49,6 +55,8 @@ export function initializeSeedData() {
     } catch (error) {
       console.error('Error initializing seed data:', error);
     }
+  } else {
+    console.log('Seed data already initialized (version ' + DATA_VERSION + ')');
   }
 }
 
