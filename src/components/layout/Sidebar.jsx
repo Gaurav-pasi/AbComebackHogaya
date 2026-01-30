@@ -1,27 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
-import {
-  Home,
-  LayoutDashboard,
-  BookOpen,
-  Code2,
-  MessageSquare,
-  FolderGit2,
-  BarChart3,
-  Clock,
-  Settings,
-  X,
-} from 'lucide-react';
+import { Home, BookOpen, Code2, Settings, X } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 const navItems = [
   { name: 'Home', path: '/', icon: Home },
-  { name: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
   { name: 'Concepts', path: '/concepts', icon: BookOpen },
   { name: 'DSA Problems', path: '/dsa', icon: Code2 },
-  { name: 'Interview Questions', path: '/questions', icon: MessageSquare },
-  { name: 'Projects', path: '/projects', icon: FolderGit2 },
-  { name: 'Analytics', path: '/analytics', icon: BarChart3 },
-  { name: 'Study Session', path: '/study-session', icon: Clock },
   { name: 'Settings', path: '/settings', icon: Settings },
 ];
 

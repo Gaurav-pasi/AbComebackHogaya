@@ -1,122 +1,258 @@
 [
   {
-    "id": "express-basics",
-    "category_id": "express",
+    "id": "exp-1",
+    "title": "What is Express.js",
+    "category": "Express",
     "subcategory": "Fundamentals",
-    "title": "Express.js Basics: Routing and Middleware",
-    "description": "Learn Express framework fundamentals including app setup, routing (GET, POST, PUT, DELETE), and middleware concepts.",
     "difficulty": "beginner",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["routing", "middleware", "basics"],
     "order_index": 1
   },
   {
-    "id": "express-middleware",
-    "category_id": "express",
-    "subcategory": "Middleware",
-    "title": "Middleware: Request Processing Pipeline",
-    "description": "Master middleware creation, built-in middleware, third-party middleware, and middleware ordering.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["middleware", "request-processing"],
+    "id": "exp-2",
+    "title": "Setting up Express App",
+    "category": "Express",
+    "subcategory": "Fundamentals",
+    "difficulty": "beginner",
     "order_index": 2
   },
   {
-    "id": "express-routing",
-    "category_id": "express",
+    "id": "exp-3",
+    "title": "Basic Routing",
+    "category": "Express",
     "subcategory": "Routing",
-    "title": "Advanced Routing: Routes, Routers, and Patterns",
-    "description": "Learn route parameters, query strings, route groups with express.Router(), and routing patterns.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["routing", "routers", "patterns"],
+    "difficulty": "beginner",
     "order_index": 3
   },
   {
-    "id": "express-req-res",
-    "category_id": "express",
-    "subcategory": "Core Concepts",
-    "title": "Request and Response Objects",
-    "description": "Understand req and res objects, headers, cookies, body parsing, and sending different response types.",
+    "id": "exp-4",
+    "title": "Route Parameters",
+    "category": "Express",
+    "subcategory": "Routing",
     "difficulty": "beginner",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["request", "response", "http"],
     "order_index": 4
   },
   {
-    "id": "express-error-handling",
-    "category_id": "express",
-    "subcategory": "Error Handling",
-    "title": "Error Handling and Status Codes",
-    "description": "Learn error-handling middleware, HTTP status codes, try/catch in routes, and proper error responses.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["errors", "exception-handling", "status-codes"],
+    "id": "exp-5",
+    "title": "Query Parameters",
+    "category": "Express",
+    "subcategory": "Routing",
+    "difficulty": "beginner",
     "order_index": 5
   },
   {
-    "id": "express-authentication",
-    "category_id": "express",
-    "subcategory": "Security",
-    "title": "Authentication and Authorization",
-    "description": "Implement user authentication with JWT, sessions, Passport.js, and role-based access control.",
+    "id": "exp-6",
+    "title": "Express Router",
+    "category": "Express",
+    "subcategory": "Routing",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["auth", "jwt", "security"],
     "order_index": 6
   },
   {
-    "id": "express-database",
-    "category_id": "express",
-    "subcategory": "Data Integration",
-    "title": "Database Integration: MongoDB, PostgreSQL",
-    "description": "Connect Express with databases, create models, perform CRUD operations with ORMs like Mongoose or Sequelize.",
+    "id": "exp-7",
+    "title": "Middleware Concept",
+    "category": "Express",
+    "subcategory": "Middleware",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["database", "models", "orm"],
     "order_index": 7
   },
   {
-    "id": "express-file-upload",
-    "category_id": "express",
-    "subcategory": "File Handling",
-    "title": "File Upload and Storage",
-    "description": "Handle file uploads with multer, validate file types and sizes, store files locally or in cloud storage.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["files", "upload", "storage"],
+    "id": "exp-8",
+    "title": "Built-in Middleware (express.json, express.static)",
+    "category": "Express",
+    "subcategory": "Middleware",
+    "difficulty": "beginner",
     "order_index": 8
   },
   {
-    "id": "express-api-design",
-    "category_id": "express",
-    "subcategory": "API Design",
-    "title": "RESTful API Design and Validation",
-    "description": "Design RESTful APIs, validate input data, implement pagination and filtering, API documentation.",
+    "id": "exp-9",
+    "title": "Custom Middleware",
+    "category": "Express",
+    "subcategory": "Middleware",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["rest", "api-design", "validation"],
     "order_index": 9
   },
   {
-    "id": "express-deployment",
-    "category_id": "express",
-    "subcategory": "Production",
-    "title": "Deployment and Production Best Practices",
-    "description": "Prepare Express apps for production, environment configuration, logging, monitoring, and deployment options.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["production", "deployment", "devops"],
+    "id": "exp-10",
+    "title": "Third-party Middleware (body-parser, cors)",
+    "category": "Express",
+    "subcategory": "Middleware",
+    "difficulty": "intermediate",
     "order_index": 10
+  },
+  {
+    "id": "exp-11",
+    "title": "Error Handling Middleware",
+    "category": "Express",
+    "subcategory": "Error Handling",
+    "difficulty": "intermediate",
+    "order_index": 11
+  },
+  {
+    "id": "exp-12",
+    "title": "Request Object (req)",
+    "category": "Express",
+    "subcategory": "Request & Response",
+    "difficulty": "beginner",
+    "order_index": 12
+  },
+  {
+    "id": "exp-13",
+    "title": "Response Object (res)",
+    "category": "Express",
+    "subcategory": "Request & Response",
+    "difficulty": "beginner",
+    "order_index": 13
+  },
+  {
+    "id": "exp-14",
+    "title": "Response Methods (send, json, status)",
+    "category": "Express",
+    "subcategory": "Request & Response",
+    "difficulty": "beginner",
+    "order_index": 14
+  },
+  {
+    "id": "exp-15",
+    "title": "Template Engines (EJS, Pug)",
+    "category": "Express",
+    "subcategory": "Views",
+    "difficulty": "intermediate",
+    "order_index": 15
+  },
+  {
+    "id": "exp-16",
+    "title": "Serving Static Files",
+    "category": "Express",
+    "subcategory": "Static Assets",
+    "difficulty": "beginner",
+    "order_index": 16
+  },
+  {
+    "id": "exp-17",
+    "title": "Session Management",
+    "category": "Express",
+    "subcategory": "Authentication",
+    "difficulty": "intermediate",
+    "order_index": 17
+  },
+  {
+    "id": "exp-18",
+    "title": "Cookies (cookie-parser)",
+    "category": "Express",
+    "subcategory": "Authentication",
+    "difficulty": "intermediate",
+    "order_index": 18
+  },
+  {
+    "id": "exp-19",
+    "title": "JWT Authentication",
+    "category": "Express",
+    "subcategory": "Authentication",
+    "difficulty": "advanced",
+    "order_index": 19
+  },
+  {
+    "id": "exp-20",
+    "title": "Passport.js",
+    "category": "Express",
+    "subcategory": "Authentication",
+    "difficulty": "advanced",
+    "order_index": 20
+  },
+  {
+    "id": "exp-21",
+    "title": "RESTful API Design",
+    "category": "Express",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 21
+  },
+  {
+    "id": "exp-22",
+    "title": "CRUD Operations",
+    "category": "Express",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 22
+  },
+  {
+    "id": "exp-23",
+    "title": "Input Validation (express-validator)",
+    "category": "Express",
+    "subcategory": "Validation",
+    "difficulty": "intermediate",
+    "order_index": 23
+  },
+  {
+    "id": "exp-24",
+    "title": "File Upload (multer)",
+    "category": "Express",
+    "subcategory": "File Handling",
+    "difficulty": "intermediate",
+    "order_index": 24
+  },
+  {
+    "id": "exp-25",
+    "title": "CORS Configuration",
+    "category": "Express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 25
+  },
+  {
+    "id": "exp-26",
+    "title": "Rate Limiting",
+    "category": "Express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 26
+  },
+  {
+    "id": "exp-27",
+    "title": "Helmet.js for Security Headers",
+    "category": "Express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 27
+  },
+  {
+    "id": "exp-28",
+    "title": "Database Integration (MongoDB, PostgreSQL)",
+    "category": "Express",
+    "subcategory": "Database",
+    "difficulty": "intermediate",
+    "order_index": 28
+  },
+  {
+    "id": "exp-29",
+    "title": "Mongoose ODM",
+    "category": "Express",
+    "subcategory": "Database",
+    "difficulty": "intermediate",
+    "order_index": 29
+  },
+  {
+    "id": "exp-30",
+    "title": "Environment Configuration",
+    "category": "Express",
+    "subcategory": "Configuration",
+    "difficulty": "beginner",
+    "order_index": 30
+  },
+  {
+    "id": "exp-31",
+    "title": "Testing Express Apps (Supertest)",
+    "category": "Express",
+    "subcategory": "Testing",
+    "difficulty": "intermediate",
+    "order_index": 31
+  },
+  {
+    "id": "exp-32",
+    "title": "Deployment (Heroku, Vercel)",
+    "category": "Express",
+    "subcategory": "Deployment",
+    "difficulty": "intermediate",
+    "order_index": 32
   }
 ]

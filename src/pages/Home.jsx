@@ -1,165 +1,133 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpen, Code2, MessageSquare, BarChart3, Zap, Target } from 'lucide-react';
+import { BookOpen, Code2, CheckCircle2 } from 'lucide-react';
 import { useAppStore } from '../store';
 import Card from '../components/common/Card';
 import Button from '../components/common/Button';
 
 const Home = () => {
-  const { concepts, dsaProblems, questions, conceptProgress, dsaProgress } = useAppStore();
+  const { concepts, dsaProblems, conceptProgress, dsaProgress } = useAppStore();
 
-  const stats = [
-    {
-      label: 'Concepts',
-      value: concepts.length,
-      completed: conceptProgress.filter((p) => p.status === 'completed' || p.status === 'mastered').length,
-      icon: BookOpen,
-      color: 'text-blue-600 dark:text-blue-400',
-      bgColor: 'bg-blue-100 dark:bg-blue-900/20',
-    },
-    {
-      label: 'DSA Problems',
-      value: dsaProblems.length,
-      completed: dsaProgress.filter((p) => p.is_solved).length,
-      icon: Code2,
-      color: 'text-green-600 dark:text-green-400',
-      bgColor: 'bg-green-100 dark:bg-green-900/20',
-    },
-    {
-      label: 'Interview Questions',
-      value: questions.length,
-      completed: 0,
-      icon: MessageSquare,
-      color: 'text-purple-600 dark:text-purple-400',
-      bgColor: 'bg-purple-100 dark:bg-purple-900/20',
-    },
-  ];
+  const totalConcepts = concepts.length;
+  const completedConcepts = conceptProgress.filter(
+    (p) => p.status === 'completed' || p.status === 'mastered'
+  ).length;
+  const conceptsProgress = totalConcepts > 0 ? Math.round((completedConcepts / totalConcepts) * 100) : 0;
 
-  const features = [
-    {
-      title: 'Track Concepts',
-      description: 'Master JavaScript, Node.js, Express, SQL, and System Architecture',
-      icon: BookOpen,
-      link: '/concepts',
-      color: 'text-blue-600 dark:text-blue-400',
-    },
-    {
-      title: 'Solve DSA Problems',
-      description: '60 curated problems covering all important patterns',
-      icon: Code2,
-      link: '/dsa',
-      color: 'text-green-600 dark:text-green-400',
-    },
-    {
-      title: 'Practice Interviews',
-      description: 'Prepare with common interview questions',
-      icon: MessageSquare,
-      link: '/questions',
-      color: 'text-purple-600 dark:text-purple-400',
-    },
-    {
-      title: 'View Analytics',
-      description: 'Track your progress with detailed analytics',
-      icon: BarChart3,
-      link: '/analytics',
-      color: 'text-yellow-600 dark:text-yellow-400',
-    },
-  ];
+  const totalDSA = dsaProblems.length;
+  const completedDSA = dsaProgress.filter((p) => p.is_solved).length;
+  const dsaProgressPercent = totalDSA > 0 ? Math.round((completedDSA / totalDSA) * 100) : 0;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Hero Section */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-          Welcome to{' '}
+      <div className="text-center mb-16">
+        <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-4">
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             AbComebackHogaya
           </span>
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-          Your comprehensive learning tracker for mastering full-stack development, DSA, and system design.
+        <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
+          Track your learning journey across JavaScript, Node.js, Express, SQL, DSA, and System Architecture
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <Button as={Link} to="/dashboard" icon={Zap} size="lg">
-            Go to Dashboard
-          </Button>
-          <Button as={Link} to="/concepts" variant="outline" icon={Target} size="lg">
-            Start Learning
-          </Button>
-        </div>
       </div>
 
-      {/* Quick Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        {stats.map((stat, index) => {
-          const Icon = stat.icon;
-          const progress = stat.value > 0 ? (stat.completed / stat.value) * 100 : 0;
-
-          return (
-            <Card key={index} hover>
-              <div className="flex items-start justify-between">
-                <div>
-                  <p className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-1">{stat.label}</p>
-                  <p className="text-3xl font-bold text-gray-900 dark:text-white">
-                    {stat.completed}/{stat.value}
-                  </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
-                    {Math.round(progress)}% completed
-                  </p>
+      {/* Stats Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <Link to="/concepts">
+          <Card hover className="h-full">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-3">
+                <div className="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/20">
+                  <BookOpen className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
-                <div className={`p-3 rounded-lg ${stat.bgColor}`}>
-                  <Icon className={`w-6 h-6 ${stat.color}`} aria-hidden="true" />
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Concepts</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    {completedConcepts} of {totalConcepts}
+                  </p>
                 </div>
               </div>
-            </Card>
-          );
-        })}
+              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">{conceptsProgress}%</span>
+            </div>
+            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+              <div
+                className="bg-blue-600 dark:bg-blue-400 h-2 rounded-full transition-all duration-300"
+                style={{ width: `${conceptsProgress}%` }}
+              />
+            </div>
+          </Card>
+        </Link>
+
+        <Link to="/dsa">
+          <Card hover className="h-full">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-3">
+                <div className="p-3 rounded-lg bg-green-100 dark:bg-green-900/20">
+                  <Code2 className="w-6 h-6 text-green-600 dark:text-green-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">DSA Problems</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    {completedDSA} of {totalDSA}
+                  </p>
+                </div>
+              </div>
+              <span className="text-2xl font-bold text-green-600 dark:text-green-400">{dsaProgressPercent}%</span>
+            </div>
+            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+              <div
+                className="bg-green-600 dark:bg-green-400 h-2 rounded-full transition-all duration-300"
+                style={{ width: `${dsaProgressPercent}%` }}
+              />
+            </div>
+          </Card>
+        </Link>
       </div>
 
-      {/* Features Grid */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Features</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {features.map((feature, index) => {
-            const Icon = feature.icon;
+      {/* Quick Actions */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Link to="/concepts">
+          <Card hover className="h-full">
+            <div className="flex items-start space-x-4">
+              <div className="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/20">
+                <BookOpen className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Learn Concepts
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  290+ concepts across JavaScript, Node.js, Express, SQL, and System Architecture
+                </p>
+                <div className="flex items-center text-sm text-blue-600 dark:text-blue-400">
+                  <span>Start Learning →</span>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </Link>
 
-            return (
-              <Link key={index} to={feature.link}>
-                <Card hover className="h-full">
-                  <div className="flex items-start space-x-4">
-                    <div className={`p-3 rounded-lg bg-gray-100 dark:bg-gray-700 ${feature.color}`}>
-                      <Icon className="w-6 h-6" aria-hidden="true" />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 flex items-center">
-                        {feature.title}
-                        <ArrowRight className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </h3>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">{feature.description}</p>
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            );
-          })}
-        </div>
+        <Link to="/dsa">
+          <Card hover className="h-full">
+            <div className="flex items-start space-x-4">
+              <div className="p-3 rounded-lg bg-green-100 dark:bg-green-900/20">
+                <Code2 className="w-6 h-6 text-green-600 dark:text-green-400" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Solve DSA Problems
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  60 curated problems covering all important patterns and data structures
+                </p>
+                <div className="flex items-center text-sm text-green-600 dark:text-green-400">
+                  <span>Start Solving →</span>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </Link>
       </div>
-
-      {/* Call to Action */}
-      <Card className="bg-gradient-to-r from-blue-500 to-purple-600 border-0">
-        <div className="text-center text-white">
-          <h2 className="text-2xl font-bold mb-2">Ready to level up?</h2>
-          <p className="text-white/90 mb-6">Start tracking your progress today and stay consistent!</p>
-          <Button
-            as={Link}
-            to="/dashboard"
-            variant="secondary"
-            size="lg"
-            className="bg-white text-blue-600 hover:bg-gray-100"
-          >
-            Get Started
-          </Button>
-        </div>
-      </Card>
     </div>
   );
 };

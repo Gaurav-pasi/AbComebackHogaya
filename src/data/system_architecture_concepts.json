@@ -1,242 +1,770 @@
 [
   {
-    "id": "arch-monolithic",
-    "category_id": "system-architecture",
-    "subcategory": "Architecture Patterns",
-    "title": "Monolithic Architecture",
-    "description": "Understand traditional monolithic architecture, where all components are tightly coupled in a single codebase. Learn pros, cons, and when to use.",
+    "id": "arch-1",
+    "title": "What is System Design",
+    "category": "System Architecture",
+    "subcategory": "Fundamentals",
     "difficulty": "beginner",
-    "estimated_time_minutes": 30,
-    "resources": [],
-    "tags": ["architecture", "patterns", "design"],
     "order_index": 1
   },
   {
-    "id": "arch-microservices",
-    "category_id": "system-architecture",
-    "subcategory": "Architecture Patterns",
-    "title": "Microservices Architecture",
-    "description": "Learn microservices design, service decomposition, inter-service communication, and distributed system challenges.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["architecture", "patterns", "distributed"],
+    "id": "arch-2",
+    "title": "Client-Server Architecture",
+    "category": "System Architecture",
+    "subcategory": "Fundamentals",
+    "difficulty": "beginner",
     "order_index": 2
   },
   {
-    "id": "arch-layered",
-    "category_id": "system-architecture",
+    "id": "arch-3",
+    "title": "Monolithic vs Microservices",
+    "category": "System Architecture",
     "subcategory": "Architecture Patterns",
-    "title": "Layered Architecture",
-    "description": "Understand layered (N-tier) architecture with presentation, business, persistence, and database layers.",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["architecture", "patterns", "layers"],
     "order_index": 3
   },
   {
-    "id": "arch-api-gateway",
-    "category_id": "system-architecture",
-    "subcategory": "Design Patterns",
-    "title": "API Gateway Pattern",
-    "description": "Learn API gateway pattern for request routing, authentication, rate limiting, and backend service abstraction.",
+    "id": "arch-4",
+    "title": "Scalability (Vertical vs Horizontal)",
+    "category": "System Architecture",
+    "subcategory": "Scalability",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["patterns", "api", "routing"],
     "order_index": 4
   },
   {
-    "id": "arch-cqrs",
-    "category_id": "system-architecture",
-    "subcategory": "Design Patterns",
-    "title": "CQRS: Command Query Responsibility Segregation",
-    "description": "Understand CQRS pattern for separating read and write models, improving scalability and performance.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["patterns", "scalability", "design"],
+    "id": "arch-5",
+    "title": "Load Balancing",
+    "category": "System Architecture",
+    "subcategory": "Scalability",
+    "difficulty": "intermediate",
     "order_index": 5
   },
   {
-    "id": "arch-event-sourcing",
-    "category_id": "system-architecture",
-    "subcategory": "Design Patterns",
-    "title": "Event Sourcing: Storing Events as Source of Truth",
-    "description": "Learn event sourcing pattern where state changes are stored as immutable events, enabling auditability and time travel.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["patterns", "events", "auditability"],
+    "id": "arch-6",
+    "title": "Load Balancing Algorithms",
+    "category": "System Architecture",
+    "subcategory": "Scalability",
+    "difficulty": "intermediate",
     "order_index": 6
   },
   {
-    "id": "arch-circuit-breaker",
-    "category_id": "system-architecture",
-    "subcategory": "Resilience Patterns",
-    "title": "Circuit Breaker Pattern: Fault Tolerance",
-    "description": "Understand circuit breaker pattern for handling failures, preventing cascading failures in distributed systems.",
+    "id": "arch-7",
+    "title": "Caching Strategies",
+    "category": "System Architecture",
+    "subcategory": "Performance",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["patterns", "resilience", "fault-tolerance"],
     "order_index": 7
   },
   {
-    "id": "arch-bulkhead",
-    "category_id": "system-architecture",
-    "subcategory": "Resilience Patterns",
-    "title": "Bulkhead Pattern: Isolation",
-    "description": "Learn bulkhead pattern for isolating resources to prevent cascading failures and ensure system resilience.",
+    "id": "arch-8",
+    "title": "Cache Eviction Policies (LRU, LFU)",
+    "category": "System Architecture",
+    "subcategory": "Performance",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 35,
-    "resources": [],
-    "tags": ["patterns", "resilience", "isolation"],
     "order_index": 8
   },
   {
-    "id": "arch-saga",
-    "category_id": "system-architecture",
-    "subcategory": "Distributed Transactions",
-    "title": "Saga Pattern: Distributed Transactions",
-    "description": "Understand saga pattern for managing distributed transactions across multiple services using choreography or orchestration.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["patterns", "transactions", "distributed"],
+    "id": "arch-9",
+    "title": "CDN (Content Delivery Network)",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
     "order_index": 9
   },
   {
-    "id": "arch-load-balancing",
-    "category_id": "system-architecture",
-    "subcategory": "Scalability",
-    "title": "Load Balancing Strategies",
-    "description": "Learn load balancing algorithms, horizontal and vertical scaling, and distribution strategies.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["scalability", "performance", "infrastructure"],
+    "id": "arch-10",
+    "title": "Database Sharding",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
+    "difficulty": "advanced",
     "order_index": 10
   },
   {
-    "id": "arch-caching",
-    "category_id": "system-architecture",
-    "subcategory": "Performance",
-    "title": "Caching Strategies: Redis, Memcached",
-    "description": "Master caching patterns including cache-aside, write-through, write-behind, and cache invalidation strategies.",
+    "id": "arch-11",
+    "title": "Database Replication",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["performance", "caching", "optimization"],
     "order_index": 11
   },
   {
-    "id": "arch-sharding",
-    "category_id": "system-architecture",
-    "subcategory": "Scalability",
-    "title": "Database Sharding and Partitioning",
-    "description": "Learn horizontal sharding strategies, partition keys, and handling cross-partition queries.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["scalability", "database", "performance"],
+    "id": "arch-12",
+    "title": "Master-Slave Replication",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
+    "difficulty": "intermediate",
     "order_index": 12
   },
   {
-    "id": "arch-replication",
-    "category_id": "system-architecture",
-    "subcategory": "Reliability",
-    "title": "Database Replication and Consistency",
-    "description": "Understand master-slave replication, consistency models (strong, eventual), and CAP theorem.",
+    "id": "arch-13",
+    "title": "Multi-Master Replication",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
     "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["reliability", "database", "consistency"],
     "order_index": 13
   },
   {
-    "id": "arch-message-queue",
-    "category_id": "system-architecture",
-    "subcategory": "Communication",
-    "title": "Message Queues: Asynchronous Communication",
-    "description": "Learn message queue systems like Kafka, RabbitMQ, and pub/sub patterns for decoupled communication.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["communication", "async", "decoupling"],
+    "id": "arch-14",
+    "title": "Database Partitioning",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
+    "difficulty": "advanced",
     "order_index": 14
   },
   {
-    "id": "arch-rate-limiting",
-    "category_id": "system-architecture",
-    "subcategory": "API Management",
-    "title": "Rate Limiting and Throttling",
-    "description": "Implement rate limiting algorithms like token bucket, sliding window, and leaky bucket.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 40,
-    "resources": [],
-    "tags": ["api-management", "performance", "security"],
+    "id": "arch-15",
+    "title": "CAP Theorem",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
     "order_index": 15
   },
   {
-    "id": "arch-authentication",
-    "category_id": "system-architecture",
-    "subcategory": "Security",
-    "title": "Authentication and Authorization",
-    "description": "Understand OAuth, JWT, SAML, role-based access control, and attribute-based access control.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["security", "auth", "access-control"],
+    "id": "arch-16",
+    "title": "ACID vs BASE",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
     "order_index": 16
   },
   {
-    "id": "arch-logging",
-    "category_id": "system-architecture",
-    "subcategory": "Observability",
-    "title": "Logging, Monitoring, and Observability",
-    "description": "Implement structured logging, centralized logging, metrics collection, tracing, and dashboards.",
-    "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["observability", "monitoring", "debugging"],
+    "id": "arch-17",
+    "title": "Eventual Consistency",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
     "order_index": 17
   },
   {
-    "id": "arch-containerization",
-    "category_id": "system-architecture",
-    "subcategory": "DevOps",
-    "title": "Containerization: Docker and Kubernetes",
-    "description": "Learn Docker for containerization and Kubernetes for container orchestration at scale.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 60,
-    "resources": [],
-    "tags": ["devops", "deployment", "infrastructure"],
+    "id": "arch-18",
+    "title": "SQL vs NoSQL",
+    "category": "System Architecture",
+    "subcategory": "Database Design",
+    "difficulty": "intermediate",
     "order_index": 18
   },
   {
-    "id": "arch-cicd",
-    "category_id": "system-architecture",
-    "subcategory": "DevOps",
-    "title": "CI/CD: Continuous Integration and Deployment",
-    "description": "Understand CI/CD pipelines, automated testing, deployment strategies, and monitoring.",
+    "id": "arch-19",
+    "title": "Message Queues",
+    "category": "System Architecture",
+    "subcategory": "Communication",
     "difficulty": "intermediate",
-    "estimated_time_minutes": 45,
-    "resources": [],
-    "tags": ["devops", "automation", "deployment"],
     "order_index": 19
   },
   {
-    "id": "arch-disaster-recovery",
-    "category_id": "system-architecture",
-    "subcategory": "Reliability",
-    "title": "Disaster Recovery and High Availability",
-    "description": "Learn RTO/RPO, backup strategies, failover mechanisms, and business continuity planning.",
-    "difficulty": "advanced",
-    "estimated_time_minutes": 50,
-    "resources": [],
-    "tags": ["reliability", "disaster-recovery", "ha"],
+    "id": "arch-20",
+    "title": "RabbitMQ",
+    "category": "System Architecture",
+    "subcategory": "Communication",
+    "difficulty": "intermediate",
     "order_index": 20
+  },
+  {
+    "id": "arch-21",
+    "title": "Apache Kafka",
+    "category": "System Architecture",
+    "subcategory": "Communication",
+    "difficulty": "intermediate",
+    "order_index": 21
+  },
+  {
+    "id": "arch-22",
+    "title": "Pub/Sub Pattern",
+    "category": "System Architecture",
+    "subcategory": "Communication",
+    "difficulty": "intermediate",
+    "order_index": 22
+  },
+  {
+    "id": "arch-23",
+    "title": "API Gateway",
+    "category": "System Architecture",
+    "subcategory": "Microservices",
+    "difficulty": "intermediate",
+    "order_index": 23
+  },
+  {
+    "id": "arch-24",
+    "title": "Service Discovery",
+    "category": "System Architecture",
+    "subcategory": "Microservices",
+    "difficulty": "advanced",
+    "order_index": 24
+  },
+  {
+    "id": "arch-25",
+    "title": "Circuit Breaker Pattern",
+    "category": "System Architecture",
+    "subcategory": "Microservices",
+    "difficulty": "advanced",
+    "order_index": 25
+  },
+  {
+    "id": "arch-26",
+    "title": "Rate Limiting",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 26
+  },
+  {
+    "id": "arch-27",
+    "title": "Throttling",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 27
+  },
+  {
+    "id": "arch-28",
+    "title": "Authentication vs Authorization",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "beginner",
+    "order_index": 28
+  },
+  {
+    "id": "arch-29",
+    "title": "OAuth 2.0",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 29
+  },
+  {
+    "id": "arch-30",
+    "title": "JWT (JSON Web Tokens)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 30
+  },
+  {
+    "id": "arch-31",
+    "title": "Session Management",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 31
+  },
+  {
+    "id": "arch-32",
+    "title": "SSL/TLS",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 32
+  },
+  {
+    "id": "arch-33",
+    "title": "HTTPS",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "beginner",
+    "order_index": 33
+  },
+  {
+    "id": "arch-34",
+    "title": "DNS (Domain Name System)",
+    "category": "System Architecture",
+    "subcategory": "Networking",
+    "difficulty": "beginner",
+    "order_index": 34
+  },
+  {
+    "id": "arch-35",
+    "title": "HTTP vs HTTPS",
+    "category": "System Architecture",
+    "subcategory": "Networking",
+    "difficulty": "beginner",
+    "order_index": 35
+  },
+  {
+    "id": "arch-36",
+    "title": "HTTP Methods (GET, POST, PUT, DELETE)",
+    "category": "System Architecture",
+    "subcategory": "Networking",
+    "difficulty": "beginner",
+    "order_index": 36
+  },
+  {
+    "id": "arch-37",
+    "title": "HTTP Status Codes",
+    "category": "System Architecture",
+    "subcategory": "Networking",
+    "difficulty": "beginner",
+    "order_index": 37
+  },
+  {
+    "id": "arch-38",
+    "title": "WebSockets",
+    "category": "System Architecture",
+    "subcategory": "Networking",
+    "difficulty": "intermediate",
+    "order_index": 38
+  },
+  {
+    "id": "arch-39",
+    "title": "gRPC",
+    "category": "System Architecture",
+    "subcategory": "Communication",
+    "difficulty": "advanced",
+    "order_index": 39
+  },
+  {
+    "id": "arch-40",
+    "title": "GraphQL",
+    "category": "System Architecture",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 40
+  },
+  {
+    "id": "arch-41",
+    "title": "REST API Design Best Practices",
+    "category": "System Architecture",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 41
+  },
+  {
+    "id": "arch-42",
+    "title": "API Versioning",
+    "category": "System Architecture",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 42
+  },
+  {
+    "id": "arch-43",
+    "title": "Idempotency",
+    "category": "System Architecture",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 43
+  },
+  {
+    "id": "arch-44",
+    "title": "Pagination Strategies",
+    "category": "System Architecture",
+    "subcategory": "APIs",
+    "difficulty": "intermediate",
+    "order_index": 44
+  },
+  {
+    "id": "arch-45",
+    "title": "Container Orchestration (Kubernetes)",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "advanced",
+    "order_index": 45
+  },
+  {
+    "id": "arch-46",
+    "title": "Docker Basics",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 46
+  },
+  {
+    "id": "arch-47",
+    "title": "CI/CD Pipelines",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 47
+  },
+  {
+    "id": "arch-48",
+    "title": "Monitoring and Logging",
+    "category": "System Architecture",
+    "subcategory": "Observability",
+    "difficulty": "intermediate",
+    "order_index": 48
+  },
+  {
+    "id": "arch-49",
+    "title": "Metrics and Alerting",
+    "category": "System Architecture",
+    "subcategory": "Observability",
+    "difficulty": "intermediate",
+    "order_index": 49
+  },
+  {
+    "id": "arch-50",
+    "title": "Distributed Tracing",
+    "category": "System Architecture",
+    "subcategory": "Observability",
+    "difficulty": "advanced",
+    "order_index": 50
+  },
+  {
+    "id": "arch-51",
+    "title": "Elasticsearch",
+    "category": "System Architecture",
+    "subcategory": "Search",
+    "difficulty": "intermediate",
+    "order_index": 51
+  },
+  {
+    "id": "arch-52",
+    "title": "Full-Text Search",
+    "category": "System Architecture",
+    "subcategory": "Search",
+    "difficulty": "intermediate",
+    "order_index": 52
+  },
+  {
+    "id": "arch-53",
+    "title": "Indexing Strategies",
+    "category": "System Architecture",
+    "subcategory": "Search",
+    "difficulty": "intermediate",
+    "order_index": 53
+  },
+  {
+    "id": "arch-54",
+    "title": "Data Warehousing",
+    "category": "System Architecture",
+    "subcategory": "Data",
+    "difficulty": "advanced",
+    "order_index": 54
+  },
+  {
+    "id": "arch-55",
+    "title": "ETL (Extract, Transform, Load)",
+    "category": "System Architecture",
+    "subcategory": "Data",
+    "difficulty": "intermediate",
+    "order_index": 55
+  },
+  {
+    "id": "arch-56",
+    "title": "Data Lakes",
+    "category": "System Architecture",
+    "subcategory": "Data",
+    "difficulty": "advanced",
+    "order_index": 56
+  },
+  {
+    "id": "arch-57",
+    "title": "Batch Processing",
+    "category": "System Architecture",
+    "subcategory": "Data Processing",
+    "difficulty": "intermediate",
+    "order_index": 57
+  },
+  {
+    "id": "arch-58",
+    "title": "Stream Processing",
+    "category": "System Architecture",
+    "subcategory": "Data Processing",
+    "difficulty": "advanced",
+    "order_index": 58
+  },
+  {
+    "id": "arch-59",
+    "title": "MapReduce",
+    "category": "System Architecture",
+    "subcategory": "Data Processing",
+    "difficulty": "advanced",
+    "order_index": 59
+  },
+  {
+    "id": "arch-60",
+    "title": "Consistent Hashing",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 60
+  },
+  {
+    "id": "arch-61",
+    "title": "Consensus Algorithms (Paxos, Raft)",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 61
+  },
+  {
+    "id": "arch-62",
+    "title": "Distributed Locks",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 62
+  },
+  {
+    "id": "arch-63",
+    "title": "Idempotent Operations",
+    "category": "System Architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "intermediate",
+    "order_index": 63
+  },
+  {
+    "id": "arch-64",
+    "title": "Retry Mechanisms",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "intermediate",
+    "order_index": 64
+  },
+  {
+    "id": "arch-65",
+    "title": "Exponential Backoff",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "intermediate",
+    "order_index": 65
+  },
+  {
+    "id": "arch-66",
+    "title": "Graceful Degradation",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "intermediate",
+    "order_index": 66
+  },
+  {
+    "id": "arch-67",
+    "title": "Failover Strategies",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "advanced",
+    "order_index": 67
+  },
+  {
+    "id": "arch-68",
+    "title": "High Availability (HA)",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "advanced",
+    "order_index": 68
+  },
+  {
+    "id": "arch-69",
+    "title": "Disaster Recovery",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "advanced",
+    "order_index": 69
+  },
+  {
+    "id": "arch-70",
+    "title": "Single Point of Failure",
+    "category": "System Architecture",
+    "subcategory": "Reliability",
+    "difficulty": "intermediate",
+    "order_index": 70
+  },
+  {
+    "id": "arch-71",
+    "title": "Database Indexing",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 71
+  },
+  {
+    "id": "arch-72",
+    "title": "Query Optimization",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 72
+  },
+  {
+    "id": "arch-73",
+    "title": "Connection Pooling",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 73
+  },
+  {
+    "id": "arch-74",
+    "title": "Lazy Loading",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "beginner",
+    "order_index": 74
+  },
+  {
+    "id": "arch-75",
+    "title": "Eager Loading",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "beginner",
+    "order_index": 75
+  },
+  {
+    "id": "arch-76",
+    "title": "Data Compression",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 76
+  },
+  {
+    "id": "arch-77",
+    "title": "Object Storage (S3)",
+    "category": "System Architecture",
+    "subcategory": "Storage",
+    "difficulty": "intermediate",
+    "order_index": 77
+  },
+  {
+    "id": "arch-78",
+    "title": "Block Storage vs Object Storage",
+    "category": "System Architecture",
+    "subcategory": "Storage",
+    "difficulty": "intermediate",
+    "order_index": 78
+  },
+  {
+    "id": "arch-79",
+    "title": "BLOB Storage",
+    "category": "System Architecture",
+    "subcategory": "Storage",
+    "difficulty": "intermediate",
+    "order_index": 79
+  },
+  {
+    "id": "arch-80",
+    "title": "Stateless vs Stateful Applications",
+    "category": "System Architecture",
+    "subcategory": "Architecture Patterns",
+    "difficulty": "intermediate",
+    "order_index": 80
+  },
+  {
+    "id": "arch-81",
+    "title": "Server-Side Rendering (SSR)",
+    "category": "System Architecture",
+    "subcategory": "Web Architecture",
+    "difficulty": "intermediate",
+    "order_index": 81
+  },
+  {
+    "id": "arch-82",
+    "title": "Client-Side Rendering (CSR)",
+    "category": "System Architecture",
+    "subcategory": "Web Architecture",
+    "difficulty": "intermediate",
+    "order_index": 82
+  },
+  {
+    "id": "arch-83",
+    "title": "Static Site Generation (SSG)",
+    "category": "System Architecture",
+    "subcategory": "Web Architecture",
+    "difficulty": "intermediate",
+    "order_index": 83
+  },
+  {
+    "id": "arch-84",
+    "title": "Web Application Firewall (WAF)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 84
+  },
+  {
+    "id": "arch-85",
+    "title": "DDoS Protection",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 85
+  },
+  {
+    "id": "arch-86",
+    "title": "CORS (Cross-Origin Resource Sharing)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 86
+  },
+  {
+    "id": "arch-87",
+    "title": "CSRF (Cross-Site Request Forgery)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 87
+  },
+  {
+    "id": "arch-88",
+    "title": "XSS (Cross-Site Scripting)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 88
+  },
+  {
+    "id": "arch-89",
+    "title": "SQL Injection Prevention",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 89
+  },
+  {
+    "id": "arch-90",
+    "title": "Data Encryption (At Rest, In Transit)",
+    "category": "System Architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 90
+  },
+  {
+    "id": "arch-91",
+    "title": "Latency vs Throughput",
+    "category": "System Architecture",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 91
+  },
+  {
+    "id": "arch-92",
+    "title": "Back Pressure",
+    "category": "System Architecture",
+    "subcategory": "Scalability",
+    "difficulty": "advanced",
+    "order_index": 92
+  },
+  {
+    "id": "arch-93",
+    "title": "Blue-Green Deployment",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 93
+  },
+  {
+    "id": "arch-94",
+    "title": "Canary Deployment",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 94
+  },
+  {
+    "id": "arch-95",
+    "title": "A/B Testing",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 95
+  },
+  {
+    "id": "arch-96",
+    "title": "Feature Flags",
+    "category": "System Architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 96
   }
 ]
