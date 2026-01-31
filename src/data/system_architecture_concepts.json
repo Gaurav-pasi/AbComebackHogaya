@@ -766,5 +766,197 @@
     "subcategory": "DevOps",
     "difficulty": "intermediate",
     "order_index": 96
+  },
+  {
+    "id": "arch-97",
+    "title": "API Pagination Patterns",
+    "category": "system_architecture",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 97
+  },
+  {
+    "id": "arch-98",
+    "title": "WebSocket Connection Management",
+    "category": "system_architecture",
+    "subcategory": "Real-time Communication",
+    "difficulty": "advanced",
+    "order_index": 98
+  },
+  {
+    "id": "arch-99",
+    "title": "Long Polling vs Server-Sent Events",
+    "category": "system_architecture",
+    "subcategory": "Real-time Communication",
+    "difficulty": "intermediate",
+    "order_index": 99
+  },
+  {
+    "id": "arch-100",
+    "title": "Session vs Token-based Auth",
+    "category": "system_architecture",
+    "subcategory": "Authentication",
+    "difficulty": "intermediate",
+    "order_index": 100
+  },
+  {
+    "id": "arch-101",
+    "title": "Database Connection Pooling",
+    "category": "system_architecture",
+    "subcategory": "Database",
+    "difficulty": "intermediate",
+    "order_index": 101
+  },
+  {
+    "id": "arch-102",
+    "title": "Cache Stampede Prevention",
+    "category": "system_architecture",
+    "subcategory": "Caching",
+    "difficulty": "advanced",
+    "order_index": 102
+  },
+  {
+    "id": "arch-103",
+    "title": "Thundering Herd Problem",
+    "category": "system_architecture",
+    "subcategory": "Scalability",
+    "difficulty": "advanced",
+    "order_index": 103
+  },
+  {
+    "id": "arch-104",
+    "title": "Read-Through vs Write-Through Cache",
+    "category": "system_architecture",
+    "subcategory": "Caching",
+    "difficulty": "advanced",
+    "order_index": 104
+  },
+  {
+    "id": "arch-105",
+    "title": "Event-Driven Architecture",
+    "category": "system_architecture",
+    "subcategory": "Architecture Patterns",
+    "difficulty": "advanced",
+    "order_index": 105
+  },
+  {
+    "id": "arch-106",
+    "title": "CQRS Pattern (basics)",
+    "category": "system_architecture",
+    "subcategory": "Architecture Patterns",
+    "difficulty": "advanced",
+    "order_index": 106
+  },
+  {
+    "id": "arch-107",
+    "title": "Saga Pattern",
+    "category": "system_architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 107
+  },
+  {
+    "id": "arch-108",
+    "title": "API Idempotency",
+    "category": "system_architecture",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 108
+  },
+  {
+    "id": "arch-109",
+    "title": "Distributed Transaction Challenges",
+    "category": "system_architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 109
+  },
+  {
+    "id": "arch-110",
+    "title": "Two-Phase Commit Protocol",
+    "category": "system_architecture",
+    "subcategory": "Distributed Systems",
+    "difficulty": "advanced",
+    "order_index": 110
+  },
+  {
+    "id": "arch-111",
+    "title": "Request Deduplication",
+    "category": "system_architecture",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 111
+  },
+  {
+    "id": "arch-112",
+    "title": "API Gateway Pattern",
+    "category": "system_architecture",
+    "subcategory": "Microservices",
+    "difficulty": "intermediate",
+    "order_index": 112
+  },
+  {
+    "id": "arch-113",
+    "title": "Bulkhead Pattern",
+    "category": "system_architecture",
+    "subcategory": "Resilience",
+    "difficulty": "advanced",
+    "order_index": 113
+  },
+  {
+    "id": "arch-114",
+    "title": "Health Checks and Readiness Probes",
+    "category": "system_architecture",
+    "subcategory": "DevOps",
+    "difficulty": "intermediate",
+    "order_index": 114
+  },
+  {
+    "id": "arch-115",
+    "title": "Service Mesh Basics",
+    "category": "system_architecture",
+    "subcategory": "Microservices",
+    "difficulty": "advanced",
+    "order_index": 115
+  },
+  {
+    "id": "arch-116",
+    "title": "Zero-Downtime Deployment",
+    "category": "system_architecture",
+    "subcategory": "DevOps",
+    "difficulty": "advanced",
+    "order_index": 116
+  },
+  {
+    "id": "arch-117",
+    "title": "Database Read Replicas",
+    "category": "system_architecture",
+    "subcategory": "Database",
+    "difficulty": "intermediate",
+    "order_index": 117
+  },
+  {
+    "id": "arch-118",
+    "title": "Write-Ahead Logging (WAL)",
+    "category": "system_architecture",
+    "subcategory": "Database",
+    "difficulty": "advanced",
+    "order_index": 118
+  },
+  {
+    "id": "arch-119",
+    "title": "Data Replication Lag",
+    "category": "system_architecture",
+    "subcategory": "Database",
+    "difficulty": "intermediate",
+    "order_index": 119
+  },
+  {
+    "id": "arch-120",
+    "title": "Content Security Policy (CSP)",
+    "category": "system_architecture",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 120
   }
 ]

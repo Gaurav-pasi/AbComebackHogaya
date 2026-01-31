@@ -11,12 +11,13 @@ const Progress = ({ value = 0, max = 100, size = 'md', color = 'blue', showLabel
   };
 
   const colors = {
-    blue: 'bg-blue-600 dark:bg-blue-500',
-    green: 'bg-green-600 dark:bg-green-500',
-    red: 'bg-red-600 dark:bg-red-500',
-    yellow: 'bg-yellow-600 dark:bg-yellow-500',
-    purple: 'bg-purple-600 dark:bg-purple-500',
-    gray: 'bg-gray-600 dark:bg-gray-500',
+    blue: 'bg-gradient-to-r from-blue-400 to-cyan-500 dark:from-blue-500 dark:to-cyan-600',
+    teal: 'bg-gradient-to-r from-teal-400 to-emerald-500 dark:from-teal-500 dark:to-emerald-600',
+    green: 'bg-gradient-to-r from-green-400 to-emerald-500 dark:from-green-500 dark:to-emerald-600',
+    red: 'bg-gradient-to-r from-rose-400 to-pink-500 dark:from-rose-500 dark:to-pink-600',
+    yellow: 'bg-gradient-to-r from-amber-400 to-orange-500 dark:from-amber-500 dark:to-orange-600',
+    purple: 'bg-gradient-to-r from-purple-400 to-pink-500 dark:from-purple-500 dark:to-pink-600',
+    gray: 'bg-gradient-to-r from-gray-400 to-slate-500 dark:from-gray-500 dark:to-slate-600',
   };
 
   return (
@@ -30,7 +31,7 @@ const Progress = ({ value = 0, max = 100, size = 'md', color = 'blue', showLabel
       )}
       <div
         className={cn(
-          'w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden',
+          'w-full bg-gray-100 dark:bg-gray-700/50 rounded-full overflow-hidden shadow-inner',
           sizes[size]
         )}
         role="progressbar"
@@ -40,7 +41,7 @@ const Progress = ({ value = 0, max = 100, size = 'md', color = 'blue', showLabel
         aria-label={`Progress: ${Math.round(percentage)}%`}
       >
         <div
-          className={cn('h-full rounded-full transition-all duration-300 ease-out', colors[color])}
+          className={cn('h-full rounded-full transition-all duration-500 ease-out shadow-sm', colors[color])}
           style={{ width: `${percentage}%` }}
         />
       </div>

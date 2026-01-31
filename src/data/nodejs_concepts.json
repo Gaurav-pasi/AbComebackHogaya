@@ -358,5 +358,165 @@
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 45
+  },
+  {
+    "id": "node-46",
+    "title": "Process Managers (PM2)",
+    "category": "nodejs",
+    "subcategory": "Production",
+    "difficulty": "intermediate",
+    "order_index": 46
+  },
+  {
+    "id": "node-47",
+    "title": "Load Balancing with Cluster",
+    "category": "nodejs",
+    "subcategory": "Scalability",
+    "difficulty": "advanced",
+    "order_index": 47
+  },
+  {
+    "id": "node-48",
+    "title": "Graceful Shutdown",
+    "category": "nodejs",
+    "subcategory": "Production",
+    "difficulty": "intermediate",
+    "order_index": 48
+  },
+  {
+    "id": "node-49",
+    "title": "Request Timeout Handling",
+    "category": "nodejs",
+    "subcategory": "Error Handling",
+    "difficulty": "intermediate",
+    "order_index": 49
+  },
+  {
+    "id": "node-50",
+    "title": "Connection Pooling (Database)",
+    "category": "nodejs",
+    "subcategory": "Database",
+    "difficulty": "advanced",
+    "order_index": 50
+  },
+  {
+    "id": "node-51",
+    "title": "Caching with Redis (basics)",
+    "category": "nodejs",
+    "subcategory": "Caching",
+    "difficulty": "intermediate",
+    "order_index": 51
+  },
+  {
+    "id": "node-52",
+    "title": "API Rate Limiting Implementation",
+    "category": "nodejs",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 52
+  },
+  {
+    "id": "node-53",
+    "title": "Helmet.js Security Headers",
+    "category": "nodejs",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 53
+  },
+  {
+    "id": "node-54",
+    "title": "Input Sanitization",
+    "category": "nodejs",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 54
+  },
+  {
+    "id": "node-55",
+    "title": "Error Logging Strategies",
+    "category": "nodejs",
+    "subcategory": "Error Handling",
+    "difficulty": "intermediate",
+    "order_index": 55
+  },
+  {
+    "id": "node-56",
+    "title": "Stream Transform and Processing",
+    "category": "nodejs",
+    "subcategory": "Streams",
+    "difficulty": "advanced",
+    "order_index": 56
+  },
+  {
+    "id": "node-57",
+    "title": "Backpressure in Streams",
+    "category": "nodejs",
+    "subcategory": "Streams",
+    "difficulty": "advanced",
+    "order_index": 57
+  },
+  {
+    "id": "node-58",
+    "title": "File Uploads and Processing",
+    "category": "nodejs",
+    "subcategory": "File System",
+    "difficulty": "intermediate",
+    "order_index": 58
+  },
+  {
+    "id": "node-59",
+    "title": "crypto Module and Hashing",
+    "category": "nodejs",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 59
+  },
+  {
+    "id": "node-60",
+    "title": "zlib Module (Compression)",
+    "category": "nodejs",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 60
+  },
+  {
+    "id": "node-61",
+    "title": "Utility Modules (util.promisify)",
+    "category": "nodejs",
+    "subcategory": "Core APIs",
+    "difficulty": "intermediate",
+    "order_index": 61
+  },
+  {
+    "id": "node-62",
+    "title": "Signal Handling (SIGTERM, SIGINT)",
+    "category": "nodejs",
+    "subcategory": "Production",
+    "difficulty": "intermediate",
+    "order_index": 62
+  },
+  {
+    "id": "node-63",
+    "title": "Memory Leak Detection",
+    "category": "nodejs",
+    "subcategory": "Debugging",
+    "difficulty": "advanced",
+    "order_index": 63
+  },
+  {
+    "id": "node-64",
+    "title": "V8 Flags and Optimization",
+    "category": "nodejs",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 64
+  },
+  {
+    "id": "node-65",
+    "title": "Timers and setImmediate",
+    "category": "nodejs",
+    "subcategory": "Core APIs",
+    "difficulty": "intermediate",
+    "order_index": 65
   }
 ]

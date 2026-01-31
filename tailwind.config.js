@@ -7,47 +7,52 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.5rem',
+        '3xl': '2rem',
+      },
       colors: {
-        // Soft, aesthetic primary colors - Teal/Cyan palette
+        // Ultra-soft, pastel primary colors - Gentle Teal
         primary: {
           50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
-          700: '#0f766e',
-          800: '#115e59',
-          900: '#134e4a',
+          100: '#d1faf5',
+          200: '#a8f5ec',
+          300: '#6eebe0',
+          400: '#3dd9c9',
+          500: '#1fc2ae',
+          600: '#14a89a',
+          700: '#128a7e',
+          800: '#126e65',
+          900: '#135953',
         },
 
-        // Soft accent color - Warm coral/peach
+        // Ultra-soft accent color - Warm peach
         accent: {
-          50: '#fff5f2',
-          100: '#ffe8e0',
-          200: '#ffd4c7',
-          300: '#ffb8a1',
-          400: '#ff9270',
-          500: '#ff6b45',
-          600: '#f04822',
-          700: '#d63616',
-          800: '#b02d15',
-          900: '#922819',
+          50: '#fff9f5',
+          100: '#fff0e8',
+          200: '#ffe4d4',
+          300: '#ffc9a8',
+          400: '#ffa876',
+          500: '#ff8552',
+          600: '#f56530',
+          700: '#e04a1e',
+          800: '#bc3d1a',
+          900: '#9a351c',
         },
 
-        // Soft purple for special states
+        // Ultra-soft purple for special states
         purple: {
-          50: '#faf5ff',
-          100: '#f3e8ff',
-          200: '#e9d5ff',
-          300: '#d8b4fe',
-          400: '#c084fc',
-          500: '#a855f7',
-          600: '#9333ea',
-          700: '#7e22ce',
-          800: '#6b21a8',
-          900: '#581c87',
+          50: '#fbf7ff',
+          100: '#f5edff',
+          200: '#eddaff',
+          300: '#ddb8ff',
+          400: '#c88fff',
+          500: '#b161ff',
+          600: '#9d3fff',
+          700: '#8526e8',
+          800: '#6f21c3',
+          900: '#5d1fa0',
         },
 
         // Category colors - Softer, pastel-inspired

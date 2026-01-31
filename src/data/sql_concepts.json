@@ -414,5 +414,165 @@
     "subcategory": "Performance",
     "difficulty": "advanced",
     "order_index": 52
+  },
+  {
+    "id": "sql-53",
+    "title": "Composite Indexes",
+    "category": "sql",
+    "subcategory": "Indexes",
+    "difficulty": "advanced",
+    "order_index": 53
+  },
+  {
+    "id": "sql-54",
+    "title": "Index Selection Strategy",
+    "category": "sql",
+    "subcategory": "Indexes",
+    "difficulty": "advanced",
+    "order_index": 54
+  },
+  {
+    "id": "sql-55",
+    "title": "EXPLAIN and Query Plans",
+    "category": "sql",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 55
+  },
+  {
+    "id": "sql-56",
+    "title": "N+1 Query Problem",
+    "category": "sql",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 56
+  },
+  {
+    "id": "sql-57",
+    "title": "Connection Pooling",
+    "category": "sql",
+    "subcategory": "Performance",
+    "difficulty": "intermediate",
+    "order_index": 57
+  },
+  {
+    "id": "sql-58",
+    "title": "Database Constraints Best Practices",
+    "category": "sql",
+    "subcategory": "Database Design",
+    "difficulty": "intermediate",
+    "order_index": 58
+  },
+  {
+    "id": "sql-59",
+    "title": "Cascading Deletes",
+    "category": "sql",
+    "subcategory": "Relationships",
+    "difficulty": "intermediate",
+    "order_index": 59
+  },
+  {
+    "id": "sql-60",
+    "title": "Soft Delete Pattern",
+    "category": "sql",
+    "subcategory": "Best Practices",
+    "difficulty": "intermediate",
+    "order_index": 60
+  },
+  {
+    "id": "sql-61",
+    "title": "Date and Time Functions",
+    "category": "sql",
+    "subcategory": "Functions",
+    "difficulty": "intermediate",
+    "order_index": 61
+  },
+  {
+    "id": "sql-62",
+    "title": "String Functions (CONCAT, SUBSTRING)",
+    "category": "sql",
+    "subcategory": "Functions",
+    "difficulty": "beginner",
+    "order_index": 62
+  },
+  {
+    "id": "sql-63",
+    "title": "Window Functions (ROW_NUMBER, RANK)",
+    "category": "sql",
+    "subcategory": "Advanced Queries",
+    "difficulty": "advanced",
+    "order_index": 63
+  },
+  {
+    "id": "sql-64",
+    "title": "CTEs (Common Table Expressions)",
+    "category": "sql",
+    "subcategory": "Advanced Queries",
+    "difficulty": "advanced",
+    "order_index": 64
+  },
+  {
+    "id": "sql-65",
+    "title": "Recursive CTEs",
+    "category": "sql",
+    "subcategory": "Advanced Queries",
+    "difficulty": "advanced",
+    "order_index": 65
+  },
+  {
+    "id": "sql-66",
+    "title": "COALESCE and NULLIF",
+    "category": "sql",
+    "subcategory": "Functions",
+    "difficulty": "intermediate",
+    "order_index": 66
+  },
+  {
+    "id": "sql-67",
+    "title": "CASE Statements",
+    "category": "sql",
+    "subcategory": "Conditional Logic",
+    "difficulty": "intermediate",
+    "order_index": 67
+  },
+  {
+    "id": "sql-68",
+    "title": "Database Indexes Performance Impact",
+    "category": "sql",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 68
+  },
+  {
+    "id": "sql-69",
+    "title": "Materialized Views",
+    "category": "sql",
+    "subcategory": "Views",
+    "difficulty": "advanced",
+    "order_index": 69
+  },
+  {
+    "id": "sql-70",
+    "title": "Partitioning Tables",
+    "category": "sql",
+    "subcategory": "Scalability",
+    "difficulty": "advanced",
+    "order_index": 70
+  },
+  {
+    "id": "sql-71",
+    "title": "JSON Data Type in PostgreSQL",
+    "category": "sql",
+    "subcategory": "Data Types",
+    "difficulty": "intermediate",
+    "order_index": 71
+  },
+  {
+    "id": "sql-72",
+    "title": "Full-Text Search in PostgreSQL",
+    "category": "sql",
+    "subcategory": "Search",
+    "difficulty": "advanced",
+    "order_index": 72
   }
 ]

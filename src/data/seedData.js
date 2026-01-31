@@ -12,7 +12,7 @@ import systemArchitectureConcepts from './system_architecture_concepts.json';
 import dsaProblems from './dsa_problems.json';
 import portfolioProjects from './portfolio_projects.json';
 
-const DATA_VERSION = '2.0'; // Increment this when data structure changes
+const DATA_VERSION = '3.1'; // Increment this when data structure changes
 
 export function initializeSeedData() {
   // Check if already initialized with current version

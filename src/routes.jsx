@@ -8,7 +8,10 @@ import Home from './pages/Home';
 import Concepts from './pages/Concepts';
 import ConceptCategory from './pages/ConceptCategory';
 import DSAProblems from './pages/DSAProblems';
-import Settings from './pages/Settings';
+import Analytics from './pages/Analytics';
+import Projects from './pages/Projects';
+import InterviewQuestions from './pages/InterviewQuestions';
+import FocusedStudy from './pages/FocusedStudy';
 import NotFound from './pages/NotFound';
 
 export default function AppRoutes() {
@@ -23,7 +26,10 @@ export default function AppRoutes() {
         <Route path="concepts" element={<Concepts />} />
         <Route path="concepts/:categoryId" element={<ConceptCategory />} />
         <Route path="dsa" element={<DSAProblems />} />
-        <Route path="settings" element={<Settings />} />
+        <Route path="analytics" element={<Analytics />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="interview-questions" element={<InterviewQuestions />} />
+        <Route path="study" element={<FocusedStudy />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

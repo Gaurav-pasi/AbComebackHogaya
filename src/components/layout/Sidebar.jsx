@@ -1,12 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Home, BookOpen, Code2, Settings, X } from 'lucide-react';
+import { Home, BookOpen, Code2, BarChart3, FolderKanban, MessageSquare, X } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 const navItems = [
-  { name: 'Home', path: '/', icon: Home },
+  { name: 'Dashboard', path: '/', icon: Home },
   { name: 'Concepts', path: '/concepts', icon: BookOpen },
   { name: 'DSA Problems', path: '/dsa', icon: Code2 },
-  { name: 'Settings', path: '/settings', icon: Settings },
+  { name: 'Analytics', path: '/analytics', icon: BarChart3 },
+  { name: 'Projects', path: '/projects', icon: FolderKanban },
+  { name: 'Interview Prep', path: '/interview-questions', icon: MessageSquare },
 ];
 
 const Sidebar = ({ isOpen, onClose }) => {
@@ -33,7 +35,7 @@ const Sidebar = ({ isOpen, onClose }) => {
       {/* Sidebar */}
       <aside
         className={cn(
-          'fixed lg:sticky top-0 left-0 z-50 h-screen w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 transition-transform duration-300 ease-in-out',
+          'fixed lg:sticky top-0 left-0 z-50 h-screen w-64 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-r border-gray-100 dark:border-gray-800 transition-all duration-300 ease-in-out shadow-lg lg:shadow-none',
           isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
         )}
         role="navigation"
@@ -69,10 +71,10 @@ const Sidebar = ({ isOpen, onClose }) => {
                     }
                   }}
                   className={cn(
-                    'flex items-center space-x-3 px-4 py-3 mb-1 rounded-lg transition-all duration-200',
+                    'flex items-center space-x-3 px-4 py-3 mb-1 rounded-xl transition-all duration-300',
                     active
-                      ? 'bg-teal-50 dark:bg-teal-900/20 text-teal-600 dark:text-teal-400 font-medium'
-                      : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                      ? 'bg-gradient-to-r from-teal-50 to-emerald-50 dark:from-teal-900/20 dark:to-emerald-900/20 text-teal-700 dark:text-teal-400 font-medium shadow-sm'
+                      : 'text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 hover:text-gray-900 dark:hover:text-gray-200'
                   )}
                   aria-current={active ? 'page' : undefined}
                   role="listitem"
@@ -85,14 +87,6 @@ const Sidebar = ({ isOpen, onClose }) => {
               );
             })}
           </nav>
-
-          {/* Footer */}
-          <div className="p-4 border-t border-gray-200 dark:border-gray-700">
-            <div className="bg-gradient-to-r from-teal-500 to-purple-600 rounded-lg p-4 text-white">
-              <p className="text-sm font-medium mb-1">Keep Learning!</p>
-              <p className="text-xs opacity-90">Track your progress and stay consistent</p>
-            </div>
-          </div>
         </div>
       </aside>
     </>

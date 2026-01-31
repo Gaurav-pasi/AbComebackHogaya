@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useThemeStore } from '../../store';
-import { Search, Sun, Moon, Menu, X, User, Settings, LogOut, Home } from 'lucide-react';
+import { Search, Sun, Moon, Menu, X } from 'lucide-react';
 
 const Header = ({ onMenuToggle, isSidebarOpen }) => {
   const { theme, toggleTheme } = useThemeStore();
   const [searchQuery, setSearchQuery] = useState('');
-  const [showUserMenu, setShowUserMenu] = useState(false);
-  const navigate = useNavigate();
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -20,7 +18,7 @@ const Header = ({ onMenuToggle, isSidebarOpen }) => {
 
   return (
     <header
-      className="sticky top-0 z-50 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm"
+      className="sticky top-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-gray-100 dark:border-gray-800 shadow-sm"
       role="banner"
     >
       <div className="px-4 sm:px-6 lg:px-8">
@@ -42,7 +40,7 @@ const Header = ({ onMenuToggle, isSidebarOpen }) => {
 
             <Link
               to="/"
-              className="flex items-center space-x-2 text-xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity"
+              className="flex items-center space-x-2 text-xl font-bold bg-gradient-to-r from-teal-600 to-emerald-600 dark:from-teal-400 dark:to-emerald-400 bg-clip-text text-transparent hover:from-teal-700 hover:to-emerald-700 dark:hover:from-teal-300 dark:hover:to-emerald-300 transition-all"
             >
               <span className="text-2xl">🚀</span>
               <span className="hidden sm:inline">AbComebackHogaya</span>
@@ -66,83 +64,20 @@ const Header = ({ onMenuToggle, isSidebarOpen }) => {
             </form>
           </div>
 
-          {/* Right: Theme Toggle + User Menu */}
-          <div className="flex items-center space-x-2">
+          {/* Right: Theme Toggle */}
+          <div className="flex items-center">
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+              className="p-2.5 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 shadow-sm hover:shadow-md"
               aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
             >
               {theme === 'light' ? (
                 <Moon className="w-5 h-5 text-gray-600 dark:text-gray-300" />
               ) : (
-                <Sun className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+                <Sun className="w-5 h-5 text-amber-500 dark:text-amber-400" />
               )}
             </button>
-
-            {/* User Menu */}
-            <div className="relative">
-              <button
-                onClick={() => setShowUserMenu(!showUserMenu)}
-                className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                aria-label="User menu"
-                aria-expanded={showUserMenu}
-                aria-haspopup="true"
-              >
-                <User className="w-5 h-5 text-gray-600 dark:text-gray-300" />
-              </button>
-
-              {showUserMenu && (
-                <>
-                  {/* Backdrop */}
-                  <div
-                    className="fixed inset-0 z-40"
-                    onClick={() => setShowUserMenu(false)}
-                    aria-hidden="true"
-                  />
-
-                  {/* Menu */}
-                  <div
-                    className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50"
-                    role="menu"
-                    aria-orientation="vertical"
-                  >
-                    <Link
-                      to="/"
-                      className="flex items-center space-x-2 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300"
-                      role="menuitem"
-                      onClick={() => setShowUserMenu(false)}
-                    >
-                      <Home className="w-4 h-4" />
-                      <span>Home</span>
-                    </Link>
-                    <Link
-                      to="/settings"
-                      className="flex items-center space-x-2 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300"
-                      role="menuitem"
-                      onClick={() => setShowUserMenu(false)}
-                    >
-                      <Settings className="w-4 h-4" />
-                      <span>Settings</span>
-                    </Link>
-                    <hr className="my-2 border-gray-200 dark:border-gray-700" />
-                    <button
-                      className="flex items-center space-x-2 w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-red-600 dark:text-red-400"
-                      role="menuitem"
-                      onClick={() => {
-                        setShowUserMenu(false);
-                        // TODO: Implement logout
-                        console.log('Logout');
-                      }}
-                    >
-                      <LogOut className="w-4 h-4" />
-                      <span>Logout</span>
-                    </button>
-                  </div>
-                </>
-              )}
-            </div>
           </div>
         </div>
 

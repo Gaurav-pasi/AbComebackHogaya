@@ -69,9 +69,32 @@ export const useAppStore = create((set, get) => ({
     let newProgress;
     if (existingIndex >= 0) {
       newProgress = [...conceptProgress];
-      newProgress[existingIndex] = { ...newProgress[existingIndex], ...progressData, updated_at: new Date().toISOString() };
+      const existing = newProgress[existingIndex];
+
+      // Merge progress data, ensuring spaced repetition fields are preserved
+      newProgress[existingIndex] = {
+        ...existing,
+        ...progressData,
+        updated_at: new Date().toISOString(),
+        // Initialize review_count if not present
+        review_count: progressData.review_count !== undefined ? progressData.review_count : (existing.review_count || 0),
+        // Preserve or update next_review_date
+        next_review_date: progressData.next_review_date || existing.next_review_date,
+        // Preserve or update confidence_rating
+        confidence_rating: progressData.confidence_rating || existing.confidence_rating,
+        // Track last review date
+        last_review_date: progressData.last_review_date || existing.last_review_date
+      };
     } else {
-      newProgress = [...conceptProgress, { ...progressData, created_at: new Date().toISOString(), updated_at: new Date().toISOString() }];
+      newProgress = [...conceptProgress, {
+        ...progressData,
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        review_count: progressData.review_count || 0,
+        next_review_date: progressData.next_review_date || null,
+        confidence_rating: progressData.confidence_rating || null,
+        last_review_date: progressData.last_review_date || null
+      }];
     }
 
     storage.set(STORAGE_KEYS.CONCEPT_PROGRESS, newProgress);

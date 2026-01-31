@@ -4,9 +4,9 @@ const Card = ({ children, className, padding = true, hover = false, onClick, ...
   return (
     <div
       className={cn(
-        'bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm',
+        'bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-100 dark:border-gray-700/50 shadow-sm',
         padding && 'p-6',
-        hover && 'hover:shadow-md transition-shadow duration-200 cursor-pointer',
+        hover && 'hover:shadow-lg hover:shadow-teal-100/50 dark:hover:shadow-teal-900/20 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer',
         onClick && 'cursor-pointer',
         className
       )}

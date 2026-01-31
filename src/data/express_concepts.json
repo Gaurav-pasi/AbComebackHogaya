@@ -254,5 +254,149 @@
     "subcategory": "Deployment",
     "difficulty": "intermediate",
     "order_index": 32
+  },
+  {
+    "id": "exp-33",
+    "title": "Request Validation Patterns",
+    "category": "express",
+    "subcategory": "Validation",
+    "difficulty": "intermediate",
+    "order_index": 33
+  },
+  {
+    "id": "exp-34",
+    "title": "API Versioning Strategies",
+    "category": "express",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 34
+  },
+  {
+    "id": "exp-35",
+    "title": "Compression Middleware",
+    "category": "express",
+    "subcategory": "Performance",
+    "difficulty": "beginner",
+    "order_index": 35
+  },
+  {
+    "id": "exp-36",
+    "title": "Morgan Logging",
+    "category": "express",
+    "subcategory": "Logging",
+    "difficulty": "beginner",
+    "order_index": 36
+  },
+  {
+    "id": "exp-37",
+    "title": "Trust Proxy Configuration",
+    "category": "express",
+    "subcategory": "Configuration",
+    "difficulty": "intermediate",
+    "order_index": 37
+  },
+  {
+    "id": "exp-38",
+    "title": "Secure Headers (Helmet)",
+    "category": "express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 38
+  },
+  {
+    "id": "exp-39",
+    "title": "CSRF Token Implementation",
+    "category": "express",
+    "subcategory": "Security",
+    "difficulty": "advanced",
+    "order_index": 39
+  },
+  {
+    "id": "exp-40",
+    "title": "Same-Origin Policy",
+    "category": "express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 40
+  },
+  {
+    "id": "exp-41",
+    "title": "Path Traversal Prevention",
+    "category": "express",
+    "subcategory": "Security",
+    "difficulty": "intermediate",
+    "order_index": 41
+  },
+  {
+    "id": "exp-42",
+    "title": "Async Handler Wrapper Pattern",
+    "category": "express",
+    "subcategory": "Error Handling",
+    "difficulty": "advanced",
+    "order_index": 42
+  },
+  {
+    "id": "exp-43",
+    "title": "Request Timeout Middleware",
+    "category": "express",
+    "subcategory": "Middleware",
+    "difficulty": "intermediate",
+    "order_index": 43
+  },
+  {
+    "id": "exp-44",
+    "title": "Response Caching Strategies",
+    "category": "express",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 44
+  },
+  {
+    "id": "exp-45",
+    "title": "Content Negotiation",
+    "category": "express",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 45
+  },
+  {
+    "id": "exp-46",
+    "title": "ETag and Conditional Requests",
+    "category": "express",
+    "subcategory": "Caching",
+    "difficulty": "advanced",
+    "order_index": 46
+  },
+  {
+    "id": "exp-47",
+    "title": "Pagination Middleware",
+    "category": "express",
+    "subcategory": "API Design",
+    "difficulty": "intermediate",
+    "order_index": 47
+  },
+  {
+    "id": "exp-48",
+    "title": "File Streaming with Response",
+    "category": "express",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 48
+  },
+  {
+    "id": "exp-49",
+    "title": "WebSocket Integration",
+    "category": "express",
+    "subcategory": "Real-time",
+    "difficulty": "advanced",
+    "order_index": 49
+  },
+  {
+    "id": "exp-50",
+    "title": "Server-Sent Events (SSE)",
+    "category": "express",
+    "subcategory": "Real-time",
+    "difficulty": "advanced",
+    "order_index": 50
   }
 ]

@@ -518,5 +518,285 @@
     "subcategory": "Advanced",
     "difficulty": "advanced",
     "order_index": 65
+  },
+  {
+    "id": "js-66",
+    "title": "Currying and Partial Application",
+    "category": "javascript",
+    "subcategory": "Functional Programming",
+    "difficulty": "advanced",
+    "order_index": 66
+  },
+  {
+    "id": "js-67",
+    "title": "Memoization Techniques",
+    "category": "javascript",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 67
+  },
+  {
+    "id": "js-68",
+    "title": "IIFE (Immediately Invoked Function Expressions)",
+    "category": "javascript",
+    "subcategory": "Functions",
+    "difficulty": "intermediate",
+    "order_index": 68
+  },
+  {
+    "id": "js-69",
+    "title": "Strict Mode ('use strict')",
+    "category": "javascript",
+    "subcategory": "Best Practices",
+    "difficulty": "beginner",
+    "order_index": 69
+  },
+  {
+    "id": "js-70",
+    "title": "Polyfills and Transpilers",
+    "category": "javascript",
+    "subcategory": "Tooling",
+    "difficulty": "intermediate",
+    "order_index": 70
+  },
+  {
+    "id": "js-71",
+    "title": "Module Bundlers (Webpack, Vite basics)",
+    "category": "javascript",
+    "subcategory": "Tooling",
+    "difficulty": "intermediate",
+    "order_index": 71
+  },
+  {
+    "id": "js-72",
+    "title": "Proxy and Reflect API",
+    "category": "javascript",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 72
+  },
+  {
+    "id": "js-73",
+    "title": "Object.freeze vs Object.seal",
+    "category": "javascript",
+    "subcategory": "Data Structures",
+    "difficulty": "intermediate",
+    "order_index": 73
+  },
+  {
+    "id": "js-74",
+    "title": "Shallow vs Deep Copy",
+    "category": "javascript",
+    "subcategory": "Data Structures",
+    "difficulty": "intermediate",
+    "order_index": 74
+  },
+  {
+    "id": "js-75",
+    "title": "null vs undefined differences",
+    "category": "javascript",
+    "subcategory": "Fundamentals",
+    "difficulty": "beginner",
+    "order_index": 75
+  },
+  {
+    "id": "js-76",
+    "title": "== vs === differences",
+    "category": "javascript",
+    "subcategory": "Fundamentals",
+    "difficulty": "beginner",
+    "order_index": 76
+  },
+  {
+    "id": "js-77",
+    "title": "Truthy and Falsy Values",
+    "category": "javascript",
+    "subcategory": "Fundamentals",
+    "difficulty": "beginner",
+    "order_index": 77
+  },
+  {
+    "id": "js-78",
+    "title": "Short-circuit Evaluation",
+    "category": "javascript",
+    "subcategory": "Fundamentals",
+    "difficulty": "intermediate",
+    "order_index": 78
+  },
+  {
+    "id": "js-79",
+    "title": "Optional Chaining (?.)",
+    "category": "javascript",
+    "subcategory": "ES6+ Features",
+    "difficulty": "intermediate",
+    "order_index": 79
+  },
+  {
+    "id": "js-80",
+    "title": "Nullish Coalescing (??)",
+    "category": "javascript",
+    "subcategory": "ES6+ Features",
+    "difficulty": "intermediate",
+    "order_index": 80
+  },
+  {
+    "id": "js-81",
+    "title": "BigInt basics",
+    "category": "javascript",
+    "subcategory": "Data Types",
+    "difficulty": "intermediate",
+    "order_index": 81
+  },
+  {
+    "id": "js-82",
+    "title": "Memory Leaks and Prevention",
+    "category": "javascript",
+    "subcategory": "Performance",
+    "difficulty": "advanced",
+    "order_index": 82
+  },
+  {
+    "id": "js-83",
+    "title": "Garbage Collection Basics",
+    "category": "javascript",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 83
+  },
+  {
+    "id": "js-84",
+    "title": "Promise.allSettled and Promise.any",
+    "category": "javascript",
+    "subcategory": "Async Programming",
+    "difficulty": "intermediate",
+    "order_index": 84
+  },
+  {
+    "id": "js-85",
+    "title": "Async Error Handling Patterns",
+    "category": "javascript",
+    "subcategory": "Async Programming",
+    "difficulty": "advanced",
+    "order_index": 85
+  },
+  {
+    "id": "js-86",
+    "title": "Microtasks vs Macrotasks",
+    "category": "javascript",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 86
+  },
+  {
+    "id": "js-87",
+    "title": "Function Composition",
+    "category": "javascript",
+    "subcategory": "Functional Programming",
+    "difficulty": "advanced",
+    "order_index": 87
+  },
+  {
+    "id": "js-88",
+    "title": "Pure Functions and Side Effects",
+    "category": "javascript",
+    "subcategory": "Functional Programming",
+    "difficulty": "intermediate",
+    "order_index": 88
+  },
+  {
+    "id": "js-89",
+    "title": "Higher-Order Functions",
+    "category": "javascript",
+    "subcategory": "Functional Programming",
+    "difficulty": "intermediate",
+    "order_index": 89
+  },
+  {
+    "id": "js-90",
+    "title": "Recursion and Base Cases",
+    "category": "javascript",
+    "subcategory": "Functions",
+    "difficulty": "intermediate",
+    "order_index": 90
+  },
+  {
+    "id": "js-91",
+    "title": "Array.from and Array.of",
+    "category": "javascript",
+    "subcategory": "Data Structures",
+    "difficulty": "intermediate",
+    "order_index": 91
+  },
+  {
+    "id": "js-92",
+    "title": "TypedArrays and ArrayBuffer",
+    "category": "javascript",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 92
+  },
+  {
+    "id": "js-93",
+    "title": "String Immutability Implications",
+    "category": "javascript",
+    "subcategory": "Data Types",
+    "difficulty": "intermediate",
+    "order_index": 93
+  },
+  {
+    "id": "js-94",
+    "title": "NaN and isNaN vs Number.isNaN",
+    "category": "javascript",
+    "subcategory": "Fundamentals",
+    "difficulty": "intermediate",
+    "order_index": 94
+  },
+  {
+    "id": "js-95",
+    "title": "Number methods (parseInt, parseFloat, toFixed)",
+    "category": "javascript",
+    "subcategory": "Data Types",
+    "difficulty": "beginner",
+    "order_index": 95
+  },
+  {
+    "id": "js-96",
+    "title": "Math object and common methods",
+    "category": "javascript",
+    "subcategory": "Built-in Objects",
+    "difficulty": "beginner",
+    "order_index": 96
+  },
+  {
+    "id": "js-97",
+    "title": "Date object and manipulation",
+    "category": "javascript",
+    "subcategory": "Built-in Objects",
+    "difficulty": "intermediate",
+    "order_index": 97
+  },
+  {
+    "id": "js-98",
+    "title": "Error types and custom errors",
+    "category": "javascript",
+    "subcategory": "Error Handling",
+    "difficulty": "intermediate",
+    "order_index": 98
+  },
+  {
+    "id": "js-99",
+    "title": "finally block in try/catch",
+    "category": "javascript",
+    "subcategory": "Error Handling",
+    "difficulty": "beginner",
+    "order_index": 99
+  },
+  {
+    "id": "js-100",
+    "title": "Object Property Descriptors",
+    "category": "javascript",
+    "subcategory": "Advanced",
+    "difficulty": "advanced",
+    "order_index": 100
   }
 ]
